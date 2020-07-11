@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -13,7 +13,7 @@ import './css/style.css'
 
 const App = () => {
 
-	const [sideMenuVisibility, setSideMenuVisibility] = useState(false);
+	const [sideMenuVisibility, setSideMenuVisibility] = useState(false); 
 
 	return(
 		<BrowserRouter>

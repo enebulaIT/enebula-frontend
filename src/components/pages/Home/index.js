@@ -11,6 +11,11 @@ const Home = () => {
 		async function fetchData () {
 			const response = await contentApi.get('/pages?slug=home');
 			setPageContent(response.data[0].content.rendered)
+
+			setTimeout(() => {
+				document.body.scrollTop = 0; // For Safari
+  				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+			}, 100)
 		}
 
 		fetchData();
@@ -41,7 +46,7 @@ const Home = () => {
 				    </div>
 				</section>
 
-				<section class="section">
+				{/*<section class="section">
 				    <div class="container">
 				        <div class="row">
 				            <div class="col-lg-6 offset-lg-3">
@@ -54,7 +59,7 @@ const Home = () => {
 				            </div>
 				        </div>
 				    </div>
-				</section>
+				</section>*/}
 
 
 			</div>

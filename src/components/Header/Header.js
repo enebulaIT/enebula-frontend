@@ -1,18 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../../images/logo.png';
 import { Link, NavLink } from 'react-router-dom'; 
+import { useLocation } from 'react-router-dom'
+
 
 const Header = (props) => {
 
 	const [megaMenuVisible, setMegaMenuVisibility] = useState(false); 
+	const [screenscrolled, setScreenScrolled] = useState(false);
+	let location = useLocation();
+
+	useEffect(() => {
+		window.addEventListener('scroll', () => {
+			if(window.scrollY === 0) {
+				setScreenScrolled(false);
+			} else {
+				setScreenScrolled(true);
+			}
+		});
+	}, []);
 
     return (
-        <header className="header js-header-scroll">
+        <header className={`header js-header-scroll ${screenscrolled || megaMenuVisible ? 'header__sticky' : ''} ${location.pathname !== '/' ? 'header__inner' : ''}`}>
 		    <nav className={`core-nav ${megaMenuVisible ? 'open' : ''}`}>
 		        <div className="nav-container">
 		            <div className="nav-header right">
 		                <Link to="/" className="brand">
-		                    <img src={logo} className="logo" alt="Smooth" />
+		                    <img src = {process.env.PUBLIC_URL + '/logo.png'} className="logo" alt="Smooth" />
 		                </Link>
 		                <button 
 		                	className={`toggle-bar core-nav-toggle	`}
@@ -144,7 +158,7 @@ const Header = (props) => {
 		                        </div>
 		                    </li>
 		                    <li><NavLink to="/how-we-work">How We Work</NavLink></li>
-		                    <li><NavLink to="/blog">Blog</NavLink></li>
+		                    {/*<li><NavLink to="/blog">Blog</NavLink></li>*/}
 		                    <li><NavLink to="/contact">Contact</NavLink></li>
 		                </ul>
 		            </div>
