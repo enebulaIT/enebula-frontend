@@ -1,5 +1,4 @@
-import React from 'react';
-import logo from '../../images/logo.png';
+import React from 'react'; 
 
 const Footer = ({ className }) => {
     return (
@@ -8,7 +7,7 @@ const Footer = ({ className }) => {
         <div className="row">
             <div className="col-lg-3">
                 <div className="footer__widget">
-                    <img src={logo} className="footer__widget-logo" alt="Smooth" /> 
+                    <img src={process.env.PUBLIC_URL + '/logo.png'} className="footer__widget-logo" alt="Smooth" /> 
                 </div>
             </div>
             <div className="col-6 col-lg-3 col-sm-3">
