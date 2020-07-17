@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import contentApi from '../../../api/content'; 
 
-const HowItWorks = () => {
+const Designing = () => {
 	const [pageContent, setPageContent] = useState('');
 
 	useEffect(() => {
-		console.log("test")
 		async function fetchData () {
-			const response = await contentApi.get('/pages?slug=how-we-work');
+			const response = await contentApi.get('/pages?slug=designing');
 			setPageContent(response.data[0].content.rendered)
 
 			setTimeout(() => {
@@ -26,4 +25,4 @@ const HowItWorks = () => {
 	);
 } 
 
-export default HowItWorks;
+export default Designing;

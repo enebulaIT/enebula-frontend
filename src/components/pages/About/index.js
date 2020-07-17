@@ -17,21 +17,21 @@ const About = () => {
 		}
 
 		fetchData();
-	});
+	}, []);
 
 	return (
 		<div>
 			<div dangerouslySetInnerHTML = { {__html: pageContent} } /> 
 
-			<section class="section section__gray">
-			    <div class="container">
-			        <div class="row">
-			            <div class="col-lg-6 offset-lg-3">
-			                <h2 class="section__heading section__heading-center">Meet our team</h2>
+			<section className="section section__gray">
+			    <div className="container">
+			        <div className="row">
+			            <div className="col-lg-6 offset-lg-3">
+			                <h2 className="section__heading section__heading-center">Meet our team</h2>
 			            </div>
 			        </div>
-			        <div class="owl-active-nav">
-			            <div class="owl-carousel js-owl-team owl-loaded owl-drag">  
+			        <div className="owl-active-nav">
+			            <div className="owl-carousel js-owl-team owl-loaded owl-drag">  
 			                <OurTeam />
 			            </div>
 			        </div>

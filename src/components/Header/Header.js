@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../../images/logo.png';
 import { Link, NavLink } from 'react-router-dom'; 
-import { useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom';
+import history from '../../customHistory';
 
 
 const Header = (props) => {
@@ -10,7 +11,12 @@ const Header = (props) => {
 	const [screenscrolled, setScreenScrolled] = useState(false);
 	let location = useLocation();
 
-	useEffect(() => {
+	history.listen((location, action) => { 
+		console.log('test');
+		setMegaMenuVisibility(false);
+	});
+
+	useEffect(() => { 
 		window.addEventListener('scroll', () => {
 			if(window.scrollY === 0) {
 				setScreenScrolled(false);
@@ -18,7 +24,7 @@ const Header = (props) => {
 				setScreenScrolled(true);
 			}
 		});
-	}, []);
+	}); 
 
     return (
         <header className={`header js-header-scroll ${screenscrolled || megaMenuVisible ? 'header__sticky' : ''} ${location.pathname !== '/' ? 'header__inner' : ''}`}>
@@ -49,108 +55,58 @@ const Header = (props) => {
 		                    <li 
 		                    	className={`megamenu ${megaMenuVisible ? 'open' : ''}`} 
 		                    	onClick = { () => {setMegaMenuVisibility(!megaMenuVisible)} }>
-		                    		<a href="#">Services</a>
+		                    		<button className = 'mega-menu'>Services</button>
 		                        <div className="megamenu-content megamenu-product">
 		                            <div className="container">
 		                                <div className="row">
 		                                    <div className="col-lg-4 col-megamenu">
-		                                        <div className="megamenu__widget">
-		                                            <h6 className="megamenu__widget-title">Products</h6>
+		                                        <div className="megamenu__widget"> 
 		                                            <div className="megamenu__widget-group">
-		                                                <a href="https://themeforest.net/item/bacotna-creative-agency-and-corporate-template/20789432" className="megamenu__widget-group-link">
-		                                                    Bacotna
-		                                                    <span>Creative Agency and Corporate Template</span>
-		                                                </a>
-		                                            </div>
-		                                            <div className="megamenu__widget-group">
-		                                                <a href="https://themeforest.net/item/anakual-multipurpose-and-responsive-corporate-template/19504220" className="megamenu__widget-group-link">
-		                                                    Anakual
-		                                                    <span>Multipurpose and responsive corporate</span>
-		                                                </a>
-		                                            </div>
-		                                            <div className="megamenu__widget-group">
-		                                                <a href="https://themeforest.net/item/creativica-multiple-creative-html5-template/19061883" className="megamenu__widget-group-link">
-		                                                    Creativica
-		                                                    <span>Multiple Creative HTML5 Template</span>
-		                                                </a>
-		                                            </div>
-		                                            <div className="megamenu__widget-group">
-		                                                <a href="https://themeforest.net/item/inspired-multipurpose-corporate-and-creative-template/18412306" className="megamenu__widget-group-link">
-		                                                    Inspired
-		                                                    <span>Multipurpose corporate and creative template</span>
-		                                                </a>
-		                                            </div>
+		                                                <Link to="/services/web-development" className="megamenu__widget-group-link">
+		                                                    Web Development
+		                                                    <span>Frontend, Backend, Full-stack, Static, Ecommerce</span> 
+		                                                </Link>
+		                                            </div>  
+												</div> 
+		                                    </div>
+		                                    <div className="col-lg-4 col-megamenu">
+		                                        <div className="megamenu__widget"> 
+	                                             	<div className="megamenu__widget-group">
+		                                                <Link to="/services/mobile-development" className="megamenu__widget-group-link">
+		                                                    Mobile app development
+		                                                    <span>Android, IOS, Hybrid</span> 
+		                                                </Link>
+		                                            </div> 
 		                                        </div>
 		                                    </div>
-		                                    <div className="col-lg-8 col-megamenu">
+		                                    <div className="col-lg-4 col-megamenu">
 		                                        <div className="megamenu__widget">
-		                                            <h6 className="megamenu__widget-title">Corporate site</h6>
-		                                            <div className="row">
-		                                                <div className="col-lg-6">
-		                                                    <div className="megamenu__widget-group">
-		                                                        <a href="about-us.html" className="megamenu__widget-group-link">
-		                                                            About us
-		                                                            <span>Premium Landing page and HTML template</span>
-		                                                        </a>
-		                                                    </div>
-		                                                </div>
-		                                                <div className="col-lg-6">
-		                                                    <div className="megamenu__widget-group">
-		                                                        <a href="gallery.html" className="megamenu__widget-group-link">
-		                                                            Gallery
-		                                                            <span>Photo, image and assets</span>
-		                                                        </a>
-		                                                    </div>
-		                                                </div>
-		                                                <div className="col-lg-6">
-		                                                    <div className="megamenu__widget-group">
-		                                                        <a href="services.html" className="megamenu__widget-group-link">
-		                                                            Our services
-		                                                            <span>Dicit decore numquam ei vel eos ex feugait albucius</span>
-		                                                        </a>
-		                                                    </div>
-		                                                </div>
-		                                                <div className="col-lg-6">
-		                                                    <div className="megamenu__widget-group">
-		                                                        <a href="faq.html" className="megamenu__widget-group-link">
-		                                                            F.A.Q
-		                                                            <span>Eu pertinax referrentur definitiones ius</span>
-		                                                        </a>
-		                                                    </div>
-		                                                </div>
-		                                                <div className="col-lg-6">
-		                                                    <div className="megamenu__widget-group">
-		                                                        <a href="team.html" className="megamenu__widget-group-link">
-		                                                            Our team
-		                                                            <span>Meet our professional teams</span>
-		                                                        </a>
-		                                                    </div>
-		                                                </div>
-		                                                <div className="col-lg-6">
-		                                                    <div className="megamenu__widget-group">
-		                                                        <a href="career.html" className="megamenu__widget-group-link">
-		                                                            Career
-		                                                            <span>Join with our team</span>
-		                                                        </a>
-		                                                    </div>
-		                                                </div>
-		                                                <div className="col-lg-6">
-		                                                    <div className="megamenu__widget-group">
-		                                                        <a href="blog-left-sidebar.html" className="megamenu__widget-group-link">
-		                                                            Blog
-		                                                            <span>News, article, and events</span>
-		                                                        </a>
-		                                                    </div>
-		                                                </div>
-		                                                <div className="col-lg-6">
-		                                                    <div className="megamenu__widget-group">
-		                                                        <a href="testimoni.html" className="megamenu__widget-group-link">
-		                                                            Testimoni
-		                                                            <span>The client is talking about us</span>
-		                                                        </a>
-		                                                    </div>
-		                                                </div>
-		                                            </div>
+		                                            <div className="megamenu__widget-group">
+		                                                <Link to="/services/game-development" className="megamenu__widget-group-link">
+		                                                    Game Solutions & Services
+		                                                    <span>Unity 2D/2.5D/3D Games, AR, Single/Multiplayer Games, Online, Gamification</span> 
+		                                                </Link> 
+		                                            </div>     
+		                                        </div>
+		                                    </div>
+		                                    <div className="col-lg-4 col-megamenu">
+		                                        <div className="megamenu__widget">
+	                                             	<div className="megamenu__widget-group">
+		                                                <Link to="/services/designing" className="megamenu__widget-group-link">
+		                                                   Security & Audit
+		                                                   <span>VAPT, Cyber Forensics, Server Management, Testing</span>
+		                                                </Link> 
+		                                            </div>    
+		                                        </div>
+		                                    </div>
+		                                    <div className="col-lg-4 col-megamenu">
+		                                        <div className="megamenu__widget"> 
+	                                             	<div className="megamenu__widget-group">
+		                                                <Link to="/services/security-audit" className="megamenu__widget-group-link">
+		                                                   Designing
+		                                                   <span>UI/UX, Motion Graphics, Branding</span>
+		                                                </Link>
+		                                            </div>  
 		                                        </div>
 		                                    </div>
 		                                </div>
