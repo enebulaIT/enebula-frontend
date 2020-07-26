@@ -18899,7 +18899,8 @@ screen and (max-height:300px) {
 }
 
 .header:hover .attributes li,
-.header:hover .menu li a {
+.header:hover .menu li a ,
+.header:hover .menu li button {
     padding: 25px 0 !important
 }
 
@@ -18936,7 +18937,8 @@ screen and (max-height:300px) {
 }
 
 .header__inner .attributes li,
-.header__inner .menu li a {
+.header__inner .menu li a ,
+.header__inner .menu li button {
     padding: 25px 0 !important
 }
 
@@ -18953,7 +18955,8 @@ screen and (max-height:300px) {
 @media (max-width:991px) {
 
     .header__inner .attributes li,
-    .header__inner .menu li a {
+    .header__inner .menu li a,
+    .header__inner .menu li button {
         padding: 0 !important
     }
 
@@ -18970,7 +18973,8 @@ screen and (max-height:300px) {
 }
 
 .header__sticky .attributes li,
-.header__sticky .menu li a {
+.header__sticky .menu li a,
+.header__sticky .menu li button {
     padding: 25px 0 !important
 }
 
@@ -18981,7 +18985,8 @@ screen and (max-height:300px) {
 @media (max-width:991px) {
 
     .header__sticky .attributes li,
-    .header__sticky .menu li a {
+    .header__sticky .menu li a,
+    .header__sticky .menu li button {
         padding: 0 !important
     }
 
@@ -18998,7 +19003,8 @@ screen and (max-height:300px) {
     padding: 0 15px
 }
 
-.header .menu li a {
+.header .menu li a ,
+.header .menu li button{
     display: inline-block;
     color: #2c2d2d;
     font-size: 14px;
@@ -19009,12 +19015,15 @@ screen and (max-height:300px) {
 }
 
 .header .menu li a:hover,
-.header .menu li.active a {
+.header .menu li.active a,
+.header .menu li.active button,
+.header .menu li button:hover{
     color: #1e5ee5
 }
 
 .header .menu li.dropdown a::after,
-.header .menu li.megamenu a::after {
+.header .menu li.megamenu a::after ,
+.header .menu li.megamenu button::after {
     content: "\f0d7";
     font-family: FontAwesome;
     font-size: 11px;
@@ -19245,7 +19254,11 @@ screen and (max-height:300px) {
     .header .core-nav .wrap-core-nav-list.right .menu li a,
     .header:hover .core-nav .wrap-core-nav-list.right .menu li a,
     .header__inner .core-nav .wrap-core-nav-list.right .menu li a,
-    .header__sticky .core-nav .wrap-core-nav-list.right .menu li a {
+    .header__sticky .core-nav .wrap-core-nav-list.right .menu li a
+    .header .core-nav .wrap-core-nav-list.right .menu li button,
+    .header:hover .core-nav .wrap-core-nav-list.right .menu li button,
+    .header__inner .core-nav .wrap-core-nav-list.right .menu li button,
+    .header__sticky .core-nav .wrap-core-nav-list.right .menu li button {
         font-size: 13px;
         padding: 0 !important
     }
@@ -24354,4 +24367,11 @@ button:hover {
 }
 .z-index {
     z-index: 9
+}
+
+/*Yash changes*/
+.header .menu li button{
+    border:0;
+    background:transparent;
+    transition: all .3s ease-in-out !important;
 }
