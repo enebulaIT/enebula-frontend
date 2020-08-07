@@ -24532,3 +24532,8 @@ ul.slick-dots {
 .masthead .col-lg-6 img {
     margin-right: -110px;
 }
+@media (max-width:991px) {
+    .masthead .col-lg-6 img{
+       margin-right: 0;
+    }
+}
