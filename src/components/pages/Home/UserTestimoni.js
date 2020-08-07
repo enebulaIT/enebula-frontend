@@ -16,11 +16,11 @@ const UserTestimoni = () => {
 	let testimonialList;
 	if(userTestimoni.length) {
 		testimonialList = userTestimoni.map((item, index) => (
-			<div class="item" key = {index}>
-		        <div class="testimoni">
+			<div className="item" key = {index}>
+		        <div className="testimoni">
 		            <blockquote>{item.post_content}</blockquote>
-		            <p class="testimoni__author"><a>{item.post_title}</a></p>
-		            <a class="testimoni__avatar">
+		            <p className="testimoni__author"><a>{item.post_title}</a></p>
+		            <a className="testimoni__avatar">
 		            	<img 
 		            		src={ item.featured_image } 
 		            		className="testimoni__avatar-image" 
@@ -39,6 +39,8 @@ const UserTestimoni = () => {
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1
+		prevArrow: false,
+    	nextArrow: false
 	}
 
 	return(
