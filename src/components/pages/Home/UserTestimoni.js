@@ -39,8 +39,7 @@ const UserTestimoni = () => {
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		prevArrow: false,
-    	nextArrow: false
+		arrows: false
 	}
 
 	return(

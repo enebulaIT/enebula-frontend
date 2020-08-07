@@ -32,8 +32,7 @@ const OurClients = () => {
 		speed: 500,
 		slidesToShow: 5,
 		slidesToScroll: 1,
-		prevArrow: false,
-		nextArrow: false
+		arrows: false
 	}
 
 	return(
