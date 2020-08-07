@@ -24468,3 +24468,50 @@ html .slick-dots li {
 ul.slick-dots {
     line-height: 100%;
 }
+.owl-carousel.js-owl-team .slick-track {
+    display: flex;
+}
+.owl-carousel.js-owl-team .slick-track .slick-slide {
+    height: auto;
+}
+.owl-carousel.js-owl-team .slick-track .slick-slide > div {
+    height: 100%;
+}
+.owl-carousel.js-owl-team .team__card {
+    height: 100%;
+}
+.owl-carousel.js-owl-team .team__card .team__thumbnail {
+    border: 5px solid #302c8b;
+    border-radius: 30px;
+}
+.owl-carousel.js-owl-team .team__card .team__thumbnail {
+    border: 5px solid #302c8b;
+    border-radius: 30px;
+    background: #302c8b;
+    height: 330px;
+}
+.owl-carousel.js-owl-team .team__card .img-fluid {
+    height: 100%;
+    width: 100%;
+}
+.owl-carousel.js-owl-team .team__card .team__thumbnail {
+    border: 5px solid #302c8b;
+    border-radius: 30px;
+    background: #302c8b;
+    height: 330px;
+    transform: translateX(2%) rotateZ(-9deg);
+    transform-origin: 0 100%;
+    transition: transform .2s ease-out;
+}
+.owl-carousel.js-owl-team .team__card:hover .team__thumbnail {
+    transform: none;
+}
+.owl-carousel.js-owl-team .team__card .img-fluid {
+    height: 100%;
+    width: 100%;
+    transform: scale(1.2) rotateZ(9deg);
+    transition: transform .2s ease-out;
+}
+.owl-carousel.js-owl-team .team__card:hover .img-fluid {
+    transform: scale(1.2) rotateZ(0deg);
+}
