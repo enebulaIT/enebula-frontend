@@ -19697,7 +19697,7 @@ screen and (max-height:300px) {
     position: relative;
     display: block;
     text-align: center;
-    padding-top: 180px
+    padding-top: -60px
 }
 
 .masthead__style-watter--icon {

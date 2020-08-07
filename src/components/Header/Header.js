@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import logo from '../../images/logo.png';
+import React, { useState, useEffect } from 'react'; 
 import { Link, NavLink } from 'react-router-dom'; 
 import { useLocation } from 'react-router-dom';
 import history from '../../customHistory';
@@ -32,7 +31,7 @@ const Header = (props) => {
 		        <div className="nav-container">
 		            <div className="nav-header right">
 		                <Link to="/" className="brand">
-		                    <img src = {process.env.PUBLIC_URL + '/logo.png'} className="logo" alt="Smooth" />
+		                    <img src = {process.env.PUBLIC_URL + '/logonew-font.png'} className="logo" alt="Smooth" />
 		                </Link>
 		                <button 
 		                	className={`toggle-bar core-nav-toggle	`}
