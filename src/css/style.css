@@ -24525,3 +24525,10 @@ ul.slick-dots {
 .owl-carousel.js-owl-team .slick-list .slick-active {
     opacity: 1;
 }
+.masthead .col-lg-6:first-child {
+    display: flex;
+    align-items: center;
+}
+.masthead .col-lg-6 img {
+    margin-right: -110px;
+}
