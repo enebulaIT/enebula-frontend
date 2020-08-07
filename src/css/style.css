@@ -11448,7 +11448,8 @@ a.text-dark:hover {
 
     .core-nav .core-nav-toggle {
         display: inline-block;
-        float: left
+        float: left;
+        margin: 10px 0 0;
     }
 
     .core-nav .wrap-core-nav-list {
@@ -19621,7 +19622,7 @@ screen and (max-height:300px) {
 
 @media (max-width:991px) {
     .masthead {
-        padding: 80px 0 40px
+        padding: 100px 0 40px
     }
 
     .masthead__content {
