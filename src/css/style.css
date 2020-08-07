@@ -19592,7 +19592,7 @@ screen and (max-height:300px) {
 .masthead {
     position: relative;
     background: #edf3ff;
-    padding: 180px 0 80px
+    padding: 80px 0 80px
 }
 
 .masthead__white {
@@ -19646,13 +19646,13 @@ screen and (max-height:300px) {
 
 .masthead__content-action .btn {
     margin-right: 10px;
-    margin-bottom: 10px
+    margin-bottom: 0;
 }
 
 @media (max-width:991px) {
     .masthead__content-action .btn {
         margin-right: 5px;
-        margin-bottom: 5px
+        margin-bottom: 0
     }
 
     .masthead__content-action {
