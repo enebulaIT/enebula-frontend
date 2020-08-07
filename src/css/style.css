@@ -11211,7 +11211,8 @@ a.text-dark:hover {
 
 .core-content .brand img {
     border: 0;
-    outline: 0
+    outline: 0;
+    width: 181px;
 }
 
 .core-content .side-menu {
