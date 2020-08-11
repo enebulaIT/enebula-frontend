@@ -11448,8 +11448,7 @@ a.text-dark:hover {
 
     .core-nav .core-nav-toggle {
         display: inline-block;
-        float: left;
-        margin: 10px 0 0;
+        float: left
     }
 
     .core-nav .wrap-core-nav-list {
@@ -18890,7 +18889,7 @@ screen and (max-height:300px) {
     }
 
     .header {
-        padding: 20px 0
+        padding: 10px 0
     }
 
     .header:hover {
@@ -19035,7 +19034,8 @@ screen and (max-height:300px) {
 
 .header .toggle-bar.core-nav-toggle {
     float: right;
-    font-size: 24px
+    font-size: 24px;
+    margin: 12px 0 0;
 }
 
 .header .attributes {
@@ -19622,7 +19622,7 @@ screen and (max-height:300px) {
 
 @media (max-width:991px) {
     .masthead {
-        padding: 100px 0 40px
+        padding: 80px 0 40px
     }
 
     .masthead__content {
@@ -19746,9 +19746,10 @@ screen and (max-height:300px) {
 
 @media (max-width:991px) {
     .masthead__style-watter--image {
-        padding-top: 90px
+        padding-top: 20px;
+        max-width: 500px;
+        margin: 0 auto;
     }
-
     .masthead__style-overlay {
         display: none
     }
@@ -24467,64 +24468,40 @@ html .slick-dots li {
 ul.slick-dots {
     line-height: 100%;
 }
-.owl-carousel.js-owl-team .slick-track {
+.member-list .slick-track {
     display: flex;
 }
-.owl-carousel.js-owl-team .slick-track .slick-slide {
+.member-list .slick-track .slick-slide {
     height: auto;
 }
-.owl-carousel.js-owl-team .slick-track .slick-slide > div {
+.member-list .slick-track .slick-slide > div {
     height: 100%;
 }
-.owl-carousel.js-owl-team .team__card {
+.member-list .team__card {
     height: 100%;
     box-shadow: none;
-    margin-top: 25px;
+    margin: 30px 0 0 20px;
 }
-.owl-carousel.js-owl-team .team__card .team__thumbnail {
-    border: 5px solid #302c8b;
-    border-radius: 30px;
-}
-.owl-carousel.js-owl-team .team__card .team__thumbnail {
+.member-list .team__card .team__thumbnail {
     border: 5px solid #302c8b;
     border-radius: 30px;
     background: #302c8b;
-    height: 330px;
-}
-.owl-carousel.js-owl-team .team__card .img-fluid {
-    height: 100%;
-    width: 100%;
-}
-.owl-carousel.js-owl-team .team__card .team__thumbnail {
-    border: 5px solid #302c8b;
-    border-radius: 30px;
-    background: #302c8b;
-    height: 270px;
     transform: translateX(2%) rotateZ(-6deg);
     transform-origin: 0 100%;
     transition: transform .2s ease-out;
 }
-.owl-carousel.js-owl-team .team__card:hover .team__thumbnail {
+.member-list .team__card:hover .team__thumbnail {
     transform: none;
 }
-.owl-carousel.js-owl-team .team__card .img-fluid {
-    height: 100%;
+.member-list .team__card .img-fluid {
+    height: 300px;
     width: 100%;
     transform: scale(1.2) rotateZ(6deg);
     transition: transform .2s ease-out;
+    object-fit: cover;
 }
-.owl-carousel.js-owl-team .team__card:hover .img-fluid {
-    transform: scale(1.2) rotateZ(0deg);
-}
-.owl-carousel.js-owl-team .slick-list {
-    overflow: visible;
-}
-.owl-carousel.js-owl-team .slick-list .slick-slide {
-    opacity: 0;
-    margin: 0 25px;
-}
-.owl-carousel.js-owl-team .slick-list .slick-active {
-    opacity: 1;
+.member-list .team__card:hover .img-fluid {
+    transform: scale(1.1) rotateZ(0deg);
 }
 .masthead .col-lg-6:first-child {
     display: flex;
@@ -24533,8 +24510,57 @@ ul.slick-dots {
 .masthead .col-lg-6 img {
     margin-right: -110px;
 }
-@media (max-width:991px) {
-    .masthead .col-lg-6 img{
+ul.member-list {
+    list-style: none;
+    margin: 0 -30px;
+    padding: 0;
+}
+.member-list li.item {
+    float: left;
+    width: 33.33%;
+    padding: 0 30px;
+    margin-top: 15px;
+}
+ul.member-list:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+@media (max-width: 1199px){
+    .member-list .team__card .img-fluid {
+        height: 240px;
+    }
+}       
+@media (max-width: 991px){
+   .masthead .col-lg-6 img{
        margin-right: 0;
     }
+    .member-list li.item {
+        padding: 0 15px;
+    }
+    ul.member-list {
+        margin: 0 -15px;
+    }
+    .member-list .team__card {
+        margin: 30px 0 0 10px;
+    }
+    .member-list .team__card .img-fluid {
+        height: 190px;
+    }
+}
+
+@media (max-width:767px){
+    ul.member-list {
+        margin: 0 -5px;
+    }
+    .member-list li.item {
+        width: 300px;
+        margin: 0 0;
+        float: none;
+        padding: 0 5px;
+    }
+    .member-list .team__card .img-fluid {
+        height: 270px;
+    }
+
 }
