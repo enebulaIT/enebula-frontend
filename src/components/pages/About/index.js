@@ -30,11 +30,7 @@ const About = () => {
 			                <h2 className="section__heading section__heading-center">Meet our team</h2>
 			            </div>
 			        </div>
-			        <div className="owl-active-nav">
-			            <div className="owl-carousel js-owl-team owl-loaded owl-drag">  
-			                <OurTeam />
-			            </div>
-			        </div>
+					<OurTeam />
 			    </div>
 			</section>
 		</div>
