@@ -18,7 +18,7 @@ const OurTeam = () => {
 		teamList = ourTeam.map((item, index) => {
 			const memberData = JSON.parse(item.post_content);
 			return (
-				<div className="item" key = {index}>
+				<li className="item" key = {index}>
 			       	<div className="team__card mb-0">
 				        <div className="team__thumbnail">
 				            <img src={item.featured_image} className="img-fluid" alt={item.post_title} />
@@ -43,7 +43,7 @@ const OurTeam = () => {
 				            </ul>
 				        </div>
 				    </div>
-			    </div>   
+			    </li>   
 			);
 		});
 	} else {
@@ -59,10 +59,10 @@ const OurTeam = () => {
 		arrows: false
 	}
 
-	return(
-		<Slider {...settings}> 
+	return(  
+		<ul className = "member-list">
 			{teamList}
-		</Slider>
+		</ul>
 	);
 }
 

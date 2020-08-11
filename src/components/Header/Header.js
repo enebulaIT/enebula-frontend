@@ -91,7 +91,7 @@ const Header = (props) => {
 		                                    <div className="col-lg-4 col-megamenu">
 		                                        <div className="megamenu__widget">
 	                                             	<div className="megamenu__widget-group">
-		                                                <Link to="/services/designing" className="megamenu__widget-group-link">
+		                                                <Link to="/services/security-audit" className="megamenu__widget-group-link">
 		                                                   Security & Audit
 		                                                   <span>VAPT, Cyber Forensics, Server Management, Testing</span>
 		                                                </Link> 
@@ -101,7 +101,7 @@ const Header = (props) => {
 		                                    <div className="col-lg-4 col-megamenu">
 		                                        <div className="megamenu__widget"> 
 	                                             	<div className="megamenu__widget-group">
-		                                                <Link to="/services/security-audit" className="megamenu__widget-group-link">
+		                                                <Link to="/services/designing" className="megamenu__widget-group-link">
 		                                                   Designing
 		                                                   <span>UI/UX, Motion Graphics, Branding</span>
 		                                                </Link>
