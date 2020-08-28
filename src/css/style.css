@@ -19104,14 +19104,14 @@ screen and (max-height:300px) {
     z-index: 2
 }
 
-.header__mobile-brand {
+/* .header__mobile-brand {
     display: inline-block;
     width: 100px;
     height: 25px;
     background: url(../images/logo_m.png) no-repeat;
     background-size: 100px 25px;
     text-indent: -99999px
-}
+} */
 
 .header__mobile-toggle {
     position: absolute;

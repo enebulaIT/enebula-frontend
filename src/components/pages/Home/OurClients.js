@@ -1,18 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import api from '../../../api/customRestRoutes'; 
 import Slider from "react-slick";
+import ourClients from '../../../ourClientsData';
 
-const OurClients = () => {
-	const [ourClients, setOurClients] = useState([]);
+const OurClients = () => { 
 	
-	useEffect(() => {
-		async function fetchData() {
-			const response = await api.get('/our-clients-api'); 
-			setOurClients(response.data);
-		}
-		fetchData();
-	}, []);	
-
 	let clientList;
 	if(ourClients.length) {
 		clientList = ourClients.map((item, index) => ( 

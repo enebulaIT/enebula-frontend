@@ -1,17 +1,8 @@
-import React, {useEffect, useState} from 'react';
-import api from '../../../api/customRestRoutes'; 
+import React, {useEffect, useState} from 'react'; 
 import Slider from "react-slick";
+import userTestimoni from '../../../userTestimoniData';
 
-const UserTestimoni = () => {
-	const [userTestimoni, setUserTestimoni] = useState([]);
-	
-	useEffect(() => {
-		async function fetchData() {
-			const response = await api.get('/testimoni-api');
-			setUserTestimoni(response.data);
-		}
-		fetchData();
-	}, []);	
+const UserTestimoni = () => { 
 
 	let testimonialList;
 	if(userTestimoni.length) {

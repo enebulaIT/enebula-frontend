@@ -1,18 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import contentApi from '../../../api/content'; 
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import heroImage from '../../../images/serviceBanners/security.png';
 
-const SecurityAudit = () => {
-	const [pageContent, setPageContent] = useState('');
+const SecurityAudit = () => { 
 
 	useEffect(() => {
 		async function fetchData () {
-			const response = await contentApi.get('/pages?slug=security-audit');
-			setPageContent(response.data[0].content.rendered)
-
-			setTimeout(() => {
-				document.body.scrollTop = 0; // For Safari
-  				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-			}, 100)
+			document.body.scrollTop = 0; // For Safari
+			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		}
 
 		fetchData();
@@ -20,7 +15,84 @@ const SecurityAudit = () => {
 
 	return (
 		<div>
-			<div dangerouslySetInnerHTML = { {__html: pageContent} } />  
+			<section className="section pt-40 pb-0">
+				<div className="container">
+					<div className="hero__standout">
+						<img src={heroImage} className="img-fluid" alt="Image article" />
+						<div className="row">
+							<div className="col-lg-6">
+								<div className="hero__standout--headline">
+									<h2 className="section__heading">Security & Audit</h2>
+									<div className="headline">One liner on security and audit</div>
+								</div>
+							</div>
+							<div className="col-lg-6">
+								<div className="hero__standout--content">
+									<p>Some content on security and audit</p>
+									<Link to="/contact" className="btn btn-primary btn-rounded btn-stroke">Contact Us</Link>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section className="section">
+				<div className="container">
+					<div className="row">
+						<div className="col-lg-12">
+							<h2 className="section__heading section__heading-center">We Expertise In</h2>
+						</div>
+					</div>
+					<div className="row">
+						<div className="col-lg-4">
+							<div className="section__column section__column-left">
+								<span className="icon icon-device column-icon"></span>
+								<h4>VAPT</h4>
+								<p>
+									One liner
+								</p>
+							</div>
+						</div>
+						<div className="col-lg-4">
+							<div className="section__column section__column-left">
+								<span className="icon icon-gift column-icon"></span>
+								<h4>Cyber Forensics</h4>
+								<p>
+									One liner
+								</p>
+							</div>
+						</div>
+						<div className="col-lg-4">
+							<div className="section__column section__column-left">
+								<span className="icon icon-paper-plane column-icon"></span>
+								<h4>Server Management</h4>
+								<p>
+									One liner
+								</p>
+							</div>
+						</div>
+						<div className="col-lg-4">
+							<div className="section__column section__column-left">
+								<span className="icon icon-paper-plane column-icon"></span>
+								<h4>Testing</h4>
+								<p>
+									One liner
+								</p>
+							</div>
+						</div>
+						<div className="col-lg-4">
+							<div className="section__column section__column-left">
+								<span className="icon icon-paper-plane column-icon"></span>
+								<h4>Configuration</h4>
+								<p>
+									One liner
+								</p>
+							</div>
+						</div> 
+					</div> 
+				</div>
+			</section>
 		</div>
 	);
 } 

@@ -112,7 +112,7 @@ const Header = (props) => {
 		                            </div>
 		                        </div>
 		                    </li>
-		                    <li><NavLink to="/how-we-work">How We Work</NavLink></li>
+		                    {/* <li><NavLink to="/how-we-work">How We Work</NavLink></li> */}
 		                    {/*<li><NavLink to="/blog">Blog</NavLink></li>*/}
 		                    <li><NavLink to="/contact">Contact</NavLink></li>
 		                </ul>

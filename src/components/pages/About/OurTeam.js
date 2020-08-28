@@ -1,22 +1,10 @@
-import React, {useEffect, useState} from 'react';
-import api from '../../../api/customRestRoutes'; 
-import Slider from "react-slick";
+import React, {useEffect, useState} from 'react'; 
+import ourTeam from '../../../ourTeamData';
 
-const OurTeam = () => {
-	const [ourTeam, setOurTeam] = useState([]);
-	
-	useEffect(() => {
-		async function fetchData() {
-			const response = await api.get('/our-team-api'); 
-			setOurTeam(response.data);
-		}
-		fetchData();
-	}, []);	
-
+const OurTeam = () => { 
 	let teamList;
 	if(ourTeam.length) {
-		teamList = ourTeam.map((item, index) => {
-			const memberData = JSON.parse(item.post_content);
+		teamList = ourTeam.map((item, index) => { 
 			return (
 				<li className="item" key = {index}>
 			       	<div className="team__card mb-0">
@@ -26,19 +14,19 @@ const OurTeam = () => {
 				        <div className="team__content">
 				            <div className="team__content--heading">
 				                <h4 className="team__name">{item.post_title}</h4>
-				                <span className="team__position">{memberData.designation}</span>
+				                <span className="team__position">{item.designation}</span>
 				            </div>
 				            <ul className="team__network">
 				            	{
-				            		memberData.facebook_link ? <li><a href={memberData.facebook_link} className="team__network--link"><i className="fa fa-facebook"></i></a></li> : ''
+				            		item.facebook_link ? <li><a href={item.facebook_link} className="team__network--link"><i className="fa fa-facebook"></i></a></li> : ''
 				            	}
 
 				            	{
-				            		memberData.twitter_link ? <li><a href={memberData.twitter_link} className="team__network--link"><i className="fa fa-twitter"></i></a></li>: ""
+				            		item.twitter_link ? <li><a href={item.twitter_link} className="team__network--link"><i className="fa fa-twitter"></i></a></li>: ""
 				            	}
 
 				            	{
-				            		memberData.linkedin_link ? 	<li><a href={memberData.linkedin_link} className="team__network--link"><i className="fa fa-linkedin"></i></a></li> : ""
+				            		item.linkedin_link ? 	<li><a href={item.linkedin_link} className="team__network--link"><i className="fa fa-linkedin"></i></a></li> : ""
 				            	}
 				            </ul>
 				        </div>
