@@ -1,17 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import contentApi from '../../../api/content';
+import React, { useEffect, useState } from 'react'; 
 import ContactForm from './ContactForm';
 import {Link} from 'react-router-dom';
 import mailAPi from '../../../api/anirudhaApi';
 
-const Contact = () => {
-	const [pageContent, setPageContent] = useState('');
+const Contact = () => { 
 	const [formSubmissionStatus, setFormSubmissionStatus] = useState(null);
 
 	useEffect(() => { 
 		setTimeout(() => {
 			document.body.scrollTop = 0; // For Safari
-				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Operai
 		}, 100) 
 	}, []);
 
