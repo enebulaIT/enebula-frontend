@@ -16,7 +16,7 @@ const Contact = () => {
 	const sendMail = async values => {
 		let status;
 		try{
-			const response = await mailAPi.post('/send_mail', values);
+			const response = await mailAPi.post('/send-mail', values);
 			if(response.data) status = true;
 			else status = false;
 		} catch(err) {
