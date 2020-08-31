@@ -4,12 +4,13 @@ import UserTestimoni from './UserTestimoni';
 import OurClients from './OurClients';
 import { Link } from 'react-router-dom';
 import mainImage from '../../../images/main.png';
-import webImage from '../../../images/web.png';
-import appImage from '../../../images/app.png';
-import gameImage from '../../../images/game.png';
-import cyberImage from '../../../images/cyber.png';
-import designImage from '../../../images/design.png';
-import consultImage from '../../../images/consultantcy.png';
+
+import webImage from '../../../images/web.svg';
+import appImage from '../../../images/App.svg';
+import gameImage from '../../../images/GAME.svg';
+import cyberImage from '../../../images/security.svg'; 
+import designImage from '../../../images/dessign.svg';
+import consultImage from '../../../images/consultantcy.svg';
 
 const Home = () => {
 	const [pageContent, setPageContent] = useState('');
@@ -189,7 +190,7 @@ const Home = () => {
 				<div  className="container">
 					<div  className="row">
 						<div  className="col-lg-8 mb-40"> 
-							<img src={designImage}  className="img-fluid" alt="Lady with handphone" /> 
+							<img src={designImage}  className="img-fluid" alt="Lady with handphone" />  
 						</div>
 						<div  className="col-lg-4 align-self-center mb-40">
 							<h2>Designing </h2>
