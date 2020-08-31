@@ -26,7 +26,7 @@ const Header = (props) => {
 	}); 
 
     return (
-        <header className={`header js-header-scroll ${screenscrolled || megaMenuVisible ? 'header__sticky' : ''} ${location.pathname !== '/' ? 'header__inner' : ''}`}>
+        <header className={`header js-header-scroll ${screenscrolled || megaMenuVisible ? 'header__sticky' : ''} ${location.pathname !== '/' ? 'header__inner header__sticky' : ''}`}>
 		    <nav className={`core-nav ${megaMenuVisible ? 'open' : ''}`}>
 		        <div className="nav-container">
 		            <div className="nav-header right">

@@ -3,7 +3,7 @@ import OurTeam from './OurTeam';
 import heroImage from '../../../images/about-us-1.png';
 import { Link } from 'react-router-dom';
 
-const About = () => { 
+const About = props => {  
 
 	useEffect(() => {
 		setTimeout(() => {
