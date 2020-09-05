@@ -24,14 +24,19 @@ const Designing = () => {
 						<img src={heroImage} className="img-fluid" alt="Image article" />
 						<div className="row">
 							<div className="col-lg-6">
-								<div className="hero__standout--headline">
+								<div className="hero__standout--headline testimoni">
 									<h2 className="section__heading">Designing</h2>
-									<div className="headline">One liner on designing</div>
+									<blockquote>Design is intelligence made visible.</blockquote>
+									<i>- Alina Wheeler</i>
 								</div>
 							</div>
 							<div className="col-lg-6">
 								<div className="hero__standout--content">
-									<p>Some content on designing</p>
+								<p>Until recently, many businesses and corporations have invested a great amount of money into their research and development departments. While this has offered quite a bit of success, today many are discovering that an investment made in technology or science alone will not provide the returns that were once seen. Instead, companies are using design as a way to differentiate itself from the competitors.</p>
+
+<p>They are finding that design is what is bringing customers and business together. And it’s not just about the name and the logo that you choose, but rather an entire image or a feeling that a customer gets when dealing with the company.</p>
+
+<p>When you are able to create the same feeling in more than one person about your business, then you have a brand that truly represents you and what you have to offer. With a smart design, you will create a feeling, a true excitement surrounding your business or brand. What this means is that a superior design is essential and truly vital when it comes to your business success.</p>
 									<Link 
 										to="/contact" 
 										className="btn btn-primary btn-rounded btn-stroke">Contact Us
@@ -55,7 +60,7 @@ const Designing = () => {
 								<span className="icon icon-device column-icon"></span>
 								<h4>UI/UX</h4>
 								<p>
-									One liner
+									Crucial to a product and work closely together.
 								</p>
 							</div>
 						</div>
@@ -64,7 +69,7 @@ const Designing = () => {
 								<span className="icon icon-gift column-icon"></span>
 								<h4>Motion Graphics</h4>
 								<p>
-									One liner
+									Motion graphics are pieces of animation or digital footage which create the illusion of motion or rotation, and are usually combined with audio for use in multimedia projects.
 								</p>
 							</div>
 						</div>
@@ -73,7 +78,7 @@ const Designing = () => {
 								<span className="icon icon-paper-plane column-icon"></span>
 								<h4>Branding</h4>
 								<p>
-									One liner
+									No explanation needed for this one. 👑
 								</p>
 							</div>
 						</div>
@@ -88,31 +93,7 @@ const Designing = () => {
 						<div className="col-lg-12">
 							<h2 className="section__heading section__heading-center">Portfolio</h2>
 						</div>
-					</div>
-
-					<Paper >
-						<Tabs
-							// value={value}
-							// onChange={handleChange}
-							indicatorColor="primary"
-							textColor="primary"
-							centered
-						>
-							<Tab label="Item One" />
-							<Tab label="Item Two" />
-							<Tab label="Item Three" />
-						</Tabs>
-					</Paper>
-
-					<TabPanel index={0}>
-					Item One
-					</TabPanel>
-					<TabPanel index={1}>
-					Item Two
-					</TabPanel>
-					<TabPanel index={2}>
-					Item Three
-					</TabPanel>
+					</div> 
 				</div>
 			</section>
 		</div>

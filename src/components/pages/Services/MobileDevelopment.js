@@ -21,14 +21,20 @@ const MobileDevelopment = () => {
 						<img src={heroImage} className="img-fluid" alt="Image article" />
 						<div className="row">
 							<div className="col-lg-6">
-								<div className="hero__standout--headline">
+								<div className="hero__standout--headline testimoni">
 									<h2 className="section__heading">Mobile Development</h2>
-									<div className="headline">One liner on mobile development</div>
+									<blockquote>Mobile is the digital gateway for the real world to join in this global metamorphosis of human behavior.</blockquote> 
+									<i>― Tomi Ahonen</i>
 								</div>
 							</div>
 							<div className="col-lg-6">
 								<div className="hero__standout--content">
-									<p>Some content on mobile dev</p>
+									<p>There had been a significant rise in the “Post-PC” products over the last decade. In fact, a survey tells that more than 68% population of the United States owns a smartphone.</p>
+
+									<p>We call our mobile devices smart for one primary reason: the host of applications they offer. You might have heard a phrase There’s an application for that! and that’s because these apps serve nearly every business purpose now.</p>
+
+									<p >81% of the mobile device users generally search for the product or a service online and 26% of them search for the apps related to that specific product. If your business has an online presence(website) and even an app, then it will definitely leave a great first impression!</p>
+
 									<Link to="/contact" className="btn btn-primary btn-rounded btn-stroke">Contact Us</Link>
 								</div>
 							</div>
@@ -48,19 +54,13 @@ const MobileDevelopment = () => {
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
 								<span className="icon icon-device column-icon"></span>
-								<h4>Android App Development</h4>
-								<p>
-									One liner
-								</p>
+								<h4>Android App Development</h4> 
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
 								<span className="icon icon-gift column-icon"></span>
-								<h4>IOS App Development</h4>
-								<p>
-									One liner
-								</p>
+								<h4>IOS App Development</h4> 
 							</div>
 						</div>
 						<div className="col-lg-4">
@@ -68,7 +68,7 @@ const MobileDevelopment = () => {
 								<span className="icon icon-paper-plane column-icon"></span>
 								<h4>Hybrid App Development</h4>
 								<p>
-									One liner
+									Develop applications for Android, iOS, Web and UWP at once.
 								</p>
 							</div>
 						</div> 

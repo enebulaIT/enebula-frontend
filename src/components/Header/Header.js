@@ -13,6 +13,7 @@ const Header = (props) => {
 	history.listen((location, action) => { 
 		console.log('test');
 		setMegaMenuVisibility(false);
+		props.setSideMenuVisibility(false);
 	});
 
 	useEffect(() => { 
@@ -23,8 +24,7 @@ const Header = (props) => {
 				setScreenScrolled(true);
 			}
 		});
-	}); 
-
+	}, []);  
     return (
         <header className={`header js-header-scroll ${screenscrolled || megaMenuVisible ? 'header__sticky' : ''} ${location.pathname !== '/' ? 'header__inner header__sticky' : ''}`}>
 		    <nav className={`core-nav ${megaMenuVisible ? 'open' : ''}`}>
