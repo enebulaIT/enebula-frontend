@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import { Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Blog from './components/pages/Blog';
@@ -25,7 +25,8 @@ const App = () => {
 	const [sideMenuVisibility, setSideMenuVisibility] = useState(false); 
 
 	return(
-		<Router history = {history}>
+		<HashRouter basename="/" history = {history}>
+		{/* <Router > */}
 			<div className = {`core-content core-responsive-slide ${sideMenuVisibility ? 'open' : ''}`}>
 				<Header
 					sideMenuVisibility = {sideMenuVisibility} 
@@ -44,7 +45,7 @@ const App = () => {
 					</Switch> 
 				<Footer />
 			</div>
-		</Router>
+		</HashRouter>
 	);
 }
 
