@@ -1,5 +1,4 @@
-import React, {useEffect, useState} from 'react';
-import api from '../../../api/customRestRoutes'; 
+import React, {useEffect, useState} from 'react'; 
 import Slider from "react-slick";
 import ourClients from '../../../ourClientsData';
 
@@ -8,9 +7,10 @@ const OurClients = () => {
 	let clientList;
 	if(ourClients.length) {
 		clientList = ourClients.map((item, index) => ( 
-			<div class="item" key = {index}>
-			    <a href="#" class="client">
+			<div class="item client" key = {index}>
+			    <a href="javascript:void(0)">
 			        <img src={item.featured_image} class="client_logo" alt={item.post_name} />  
+			        <img src={item.featured_image_reg} class="client_logo-hover" alt={item.post_name} />  
 			    </a>
 			</div>
 		));
@@ -18,13 +18,29 @@ const OurClients = () => {
 		return <p>Loading...</p>;
 	}
 
-	const settings = {
+	const settings = { 
 		dots: true,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 5,
 		slidesToScroll: 1,
-		arrows: false
+		arrows: false,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		responsive: [
+			{
+			  breakpoint: 768,
+			  settings: { 
+				slidesToShow: 3
+			  }
+			},
+			{
+			  breakpoint: 480,
+			  settings: { 
+				slidesToShow: 2
+			  }
+			}
+		  ]
 	}
 
 	return(

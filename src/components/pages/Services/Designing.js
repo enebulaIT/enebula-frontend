@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react'; 
 import heroImage from '../../../images/serviceBanners/design.png';
 import { Link } from 'react-router-dom';
+import { Tabs , Paper, Tab } from '@material-ui/core';
+import { TabPanel } from '@material-ui/lab';
+
 
 const Designing = () => { 
 
@@ -77,6 +80,41 @@ const Designing = () => {
 					</div> 
 				</div>
 			</section> 
+
+
+			<section className = "section">
+				<div className = "container">
+					<div className="row">
+						<div className="col-lg-12">
+							<h2 className="section__heading section__heading-center">Portfolio</h2>
+						</div>
+					</div>
+
+					<Paper >
+						<Tabs
+							// value={value}
+							// onChange={handleChange}
+							indicatorColor="primary"
+							textColor="primary"
+							centered
+						>
+							<Tab label="Item One" />
+							<Tab label="Item Two" />
+							<Tab label="Item Three" />
+						</Tabs>
+					</Paper>
+
+					<TabPanel index={0}>
+					Item One
+					</TabPanel>
+					<TabPanel index={1}>
+					Item Two
+					</TabPanel>
+					<TabPanel index={2}>
+					Item Three
+					</TabPanel>
+				</div>
+			</section>
 		</div>
 	);
 } 

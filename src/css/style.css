@@ -22865,6 +22865,7 @@ button:hover {
     transition: all .3s ease-in-out !important;
     opacity: 0;
     left: 50%;
+    top: 0;
     margin-left: -72.5px !important
 }
 
@@ -22876,12 +22877,12 @@ button:hover {
     opacity: 1
 }
 
-.plyr__control--overlaid {
-    background: #f26822;
-    padding: 30px;
-    -webkit-box-shadow: 0 5px 28px -5px rgba(190, 151, 151, .5);
-    box-shadow: 0 5px 28px -5px rgba(190, 151, 151, .5)
+.slick-slide.slick-active.slick-center.slick-current {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    transform: scale(1.25); 
 }
+
 
 @media (max-width:991px) {
     .plyr__control--overlaid {
@@ -24477,6 +24478,7 @@ ul.slick-dots {
 .member-list .slick-track .slick-slide > div {
     height: 100%;
 }
+
 .member-list .team__card {
     height: 100%;
     box-shadow: none;

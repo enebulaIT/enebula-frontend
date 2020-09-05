@@ -218,21 +218,21 @@ const Home = () => {
 				</div>
 			</section>
 
-			<section class="section section__gray-watter--bottom">
-				<div class="container">
-					<div class="row mt-100">
-						<div class="col-lg-6 offset-lg-3">
-							<h2 class="section__heading section__heading-center">User testimoni</h2>
+			<section className="section section__gray-watter--bottom">
+				<div className="container">
+					<div className="row mt-100">
+						<div className="col-lg-6 offset-lg-3">
+							<h2 className="section__heading section__heading-center">User testimoni</h2>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-lg-6 offset-lg-3 text-center mb-20">
+					<div className="row">
+						<div className="col-lg-6 offset-lg-3 text-center mb-20">
 							<UserTestimoni />
 						</div>
 					</div>
-					<div class="row">
-						<div class="col">
-							<div class="divider"></div>
+					<div className="row">
+						<div className="col">
+							<div className="divider"></div>
 							<OurClients />
 						</div>
 					</div>
