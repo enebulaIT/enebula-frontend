@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react'; 
 import heroImage from '../../../images/serviceBanners/design.png';
-import { Link } from 'react-router-dom';
-import { Tabs , Paper, Tab } from '@material-ui/core';
-import { TabPanel } from '@material-ui/lab';
+import { Link } from 'react-router-dom'; 
+import { Tabs } from 'antd';
+import 'antd/dist/antd.css';
 
+const { TabPane } = Tabs;
 
 const Designing = () => { 
 
@@ -92,6 +93,23 @@ const Designing = () => {
 					<div className="row">
 						<div className="col-lg-12">
 							<h2 className="section__heading section__heading-center">Portfolio</h2>
+							<Tabs type="card">
+								<TabPane tab="Tab Title 1" key="1">
+									<p>Content of Tab Pane 1</p>
+									<p>Content of Tab Pane 1</p>
+									<p>Content of Tab Pane 1</p>
+								</TabPane>
+								<TabPane tab="Tab Title 2" key="2">
+									<p>Content of Tab Pane 2</p>
+									<p>Content of Tab Pane 2</p>
+									<p>Content of Tab Pane 2</p>
+								</TabPane>
+								<TabPane tab="Tab Title 3" key="3">
+									<p>Content of Tab Pane 3</p>
+									<p>Content of Tab Pane 3</p>
+									<p>Content of Tab Pane 3</p>
+								</TabPane>
+							</Tabs>
 						</div>
 					</div> 
 				</div>

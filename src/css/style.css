@@ -24532,6 +24532,7 @@ ul.member-list:after {
 .hero__standout--headline i {
     float: right; 
 }
+
 @media (max-width: 1199px){
     .member-list .team__card .img-fluid {
         height: 240px;

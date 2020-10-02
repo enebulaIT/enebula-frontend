@@ -55,18 +55,17 @@ const Contact = () => {
 			         </div>
 			         <div className="col-lg-4 js-match-height" style={{height: "866px"}}>
 			            <aside className="aside__left contact__aside">
-			               <div className="contact__aside--content">
+			               <div className="contact__aside--content"> 
 			                  <div className="contact__aside--widget">
-			                     <h5 className="contact__aside--widget-title"><i className="fa fa-home"></i> Office address</h5>
-			                     <p>St.Kemacetan timur No.13 Block Q2 Jakarta - Indonesia</p>
+								<h5 className="contact__aside--widget-title">
+									 <i className="fa fa-phone"></i> 
+									 Phone number
+								</h5>
+								<a href = "tel:+918320295470"><p>+91 83202 95470</p></a>
 			                  </div>
 			                  <div className="contact__aside--widget">
-			                     <h5 className="contact__aside--widget-title"><i className="fa fa-phone"></i> Phone number</h5>
-			                     <p>+62 123-456-789-99</p>
-			                  </div>
-			                  <div className="contact__aside--widget">
-			                     <h5 className="contact__aside--widget-title"><i className="fa fa-envelope"></i> Email address</h5>
-			                     <p>info@yourdomain.com</p>
+								<h5 className="contact__aside--widget-title"><i className="fa fa-envelope"></i> Email address</h5>
+								<a href = "mailto:admin@fortunachip.com"><p>admin@fortunachip.com</p></a>
 			                  </div>
 			               </div>
 			            </aside>
