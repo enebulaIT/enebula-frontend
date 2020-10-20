@@ -65,7 +65,7 @@ const Contact = () => {
 			                  </div>
 			                  <div className="contact__aside--widget">
 								<h5 className="contact__aside--widget-title"><i className="fa fa-envelope"></i> Email address</h5>
-								<a href = "mailto:admin@fortunachip.com"><p>admin@fortunachip.com</p></a>
+								<a href = "mailto:admin@fortunachip.com"><p>admin@enebula.com</p></a>
 			                  </div>
 			               </div>
 			            </aside>
