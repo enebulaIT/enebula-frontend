@@ -16,17 +16,18 @@ const Header = (props) => {
 		props.setSideMenuVisibility(false);
 	});
 
-	useEffect(() => { 
-		window.addEventListener('scroll', () => {
+	useEffect(() => {  
+		window.addEventListener('scroll', () => { 
 			if(window.scrollY === 0) {
 				setScreenScrolled(false);
 			} else {
 				setScreenScrolled(true);
 			}
-		});
+		});  
 	}, []);  
+ 
     return (
-        <header className={`header js-header-scroll ${screenscrolled || megaMenuVisible ? 'header__sticky' : ''} ${location.pathname !== '/' ? 'header__inner header__sticky' : ''}`}>
+        <header className={`header js-header-scroll ${screenscrolled || megaMenuVisible ? 'header__sticky' : 'header__sticky'} ${location.pathname !== '/' ? 'header__inner header__sticky' : ''}`}>
 		    <nav className={`core-nav ${megaMenuVisible ? 'open' : ''}`}>
 		        <div className="nav-container">
 		            <div className="nav-header right">
