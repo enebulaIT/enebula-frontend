@@ -24571,3 +24571,7 @@ ul.member-list:after {
     }
 
 }
+
+.row img.img-fluid {
+    max-width: 600px;
+}
