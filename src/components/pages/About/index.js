@@ -21,13 +21,17 @@ const About = props => {
 						<div className="row">
 							<div className="col-lg-6">
 								<div className="hero__standout--headline">
-									<h2 className="section__heading">Hello Buddy..!<br /> Welcome to Smooth </h2>
-									<div className="headline">We are build awesome marketing template</div>
+									<h2 className="section__heading">About Us </h2>
+									<blockquote>A team away from your team.</blockquote>
+									<i>- eNebula</i>
 								</div>
 							</div>
 							<div className="col-lg-6">
 								<div className="hero__standout--content">
-									<p>Suas essent qualisque mel ad, cum ei cibo volutpat explicari. Ut reque veniam option ius, at sed dicat munere audire. Ne duo meliore definiebas, eam id ridens prompta. Ea ius integre impedit adversarium, ex nostrum forensibus vis, an vel numquam inermis omnesque. Vidit mentitum sed ad. Natum ipsum commune in has, nibh euismod no sed, ne sint consul nullam eum.</p>
+									<p>We continuously strive to build digital solutions that would help your business thrive in this economy which is turning to a digital one at godspeed. We believe that not so far in the future digital presence will not just be an added advantage for a business but will be an added building block for any business to get started/continue to exist.</p>
+
+									<p>You might ask. Why us? What makes us qualified to handle such an important aspect of a business? Great question! We are a team of highly seasoned and passionate individuals ready to help you build and get you going on your path of success. <b>We are an extension to your team.</b> With us you’ll be getting in touch with some world class leaders who’re offering world-class digital services to world-class people who’re building world-class solutions. Guess that’s enough world-class talk from the apprentice whose world is his class. 😉</p>
+
 									<Link to = "/contact" className="btn btn-primary btn-rounded btn-stroke">Get in touch with us </Link>
 								</div>
 							</div>
@@ -45,56 +49,44 @@ const About = props => {
 					<div className="row">
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-device column-icon"></span>
+								<span className="icon icon-wi5 column-icon"></span>
 								<h4>Web development</h4>
-								<p>
-									Unum liber commune in mel, ut pri tritani propriae menandri. Cum et magna porro intellegat.
-								</p>
+								<p>&nbsp;</p>
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-gift column-icon"></span>
-								<h4>Branding</h4>
-								<p>
-									Unum liber commune in mel, ut pri tritani propriae menandri. Cum et magna porro intellegat.
-								</p>
+								<span className="icon icon-mi3 column-icon"></span>
+								<h4>Mobile Applications</h4>
+								<p>&nbsp;</p>
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-paper-plane column-icon"></span>
-								<h4>Email Campaign</h4>
-								<p>
-									Unum liber commune in mel, ut pri tritani propriae menandri. Cum et magna porro intellegat.
-								</p>
+								<span className="icon icon-game4 column-icon"></span>
+								<h4>Game Development</h4>
+								<p>&nbsp;</p>
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-chart column-icon"></span>
-								<h4>SEO</h4>
-								<p>
-									Unum liber commune in mel, ut pri tritani propriae menandri. Cum et magna porro intellegat.
-								</p>
+								<span className="icon icon-cs1 column-icon"></span>
+								<h4>Security & Audit</h4>
+								<p>&nbsp;</p>
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-cogs column-icon"></span>
-								<h4>Software engineering</h4>
-								<p>
-									Unum liber commune in mel, ut pri tritani propriae menandri. Cum et magna porro intellegat.
-								</p>
+								<span className="icon icon-des1 column-icon"></span>
+								<h4>Designing</h4>
+								<p>&nbsp;</p>
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-hard-disk column-icon"></span>
-								<h4>Web server</h4>
-								<p>
-									Unum liber commune in mel, ut pri tritani propriae menandri. Cum et magna porro intellegat.
-								</p>
+								<span className="icon icon-game3 column-icon"></span>
+								<h4>Consultant Services</h4>
+								<p>&nbsp;</p>
 							</div>
 						</div>
 					</div>
