@@ -52,14 +52,14 @@ const GameDevelopment = () => {
 					<div className="row">
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-device column-icon"></span>
+								<span className="icon icon-game1 column-icon"></span>
 								<h4>Unity 2D/2.5D/3D</h4> 
 								<p>Cross-platform game engine developed by Unity Technologies</p>
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-gift column-icon"></span>
+								<span className="icon icon-game2 column-icon"></span>
 								<h4>AR</h4>
 								<p>
 									Interactive experience of a real-world environment
@@ -68,21 +68,21 @@ const GameDevelopment = () => {
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-paper-plane column-icon"></span>
+								<span className="icon icon-game3 column-icon"></span>
 								<h4>Single/Multiplayer</h4> 
 								<p>The hottest of em all.</p>
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-paper-plane column-icon"></span>
+								<span className="icon icon-game4 column-icon"></span>
 								<h4>Online</h4> 
 								<p>Coz. Why not.😜</p>
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-paper-plane column-icon"></span>
+								<span className="icon icon-game5 column-icon"></span>
 								<h4>Gamification</h4>
 								<p>
 									Application of game-design elements and game principles in non-game contexts.

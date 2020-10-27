@@ -17084,6 +17084,129 @@ a {
     background-image: url(../images/icons/svg/wallet.svg)
 }
 
+
+/*Custom icons*/
+/*home*/
+
+.icon-hi1 {
+    background-image: url(../images/icons/svg/home-icon-1.svg)
+}
+
+.icon-hi2 {
+    background-image: url(../images/icons/svg/home-icon-2.svg)
+}
+
+.icon-hi3 {
+    background-image: url(../images/icons/svg/home-icon-3.svg)
+}
+.icon-hi4 {
+    background-image: url(../images/icons/svg/home-icon-4.svg)
+}
+.icon-hi5 {
+    background-image: url(../images/icons/svg/home-icon-5.svg)
+}
+
+.icon-hi6 {
+    background-image: url(../images/icons/svg/home-icon-6.svg)
+}
+
+.icon-hi7 {
+    background-image: url(../images/icons/svg/home-icon-7.svg)
+}
+
+.icon-hi8 {
+    background-image: url(../images/icons/svg/home-icon-8.svg)
+}
+
+.icon-hi9 {
+    background-image: url(../images/icons/svg/home-icon-9.svg)
+}
+
+
+/*web*/
+
+.icon-wi1 {
+    background-image: url(../images/icons/svg/web-icon-1.svg)
+}
+.icon-wi2 {
+    background-image: url(../images/icons/svg/web-icon-2.svg)
+}
+.icon-wi3 {
+    background-image: url(../images/icons/svg/web-icon-3.svg)
+}
+.icon-wi4 {
+    background-image: url(../images/icons/svg/web-icon-4.svg)
+}
+.icon-wi5 {
+    background-image: url(../images/icons/svg/web-icon-5.svg)
+}
+.icon-wi6 {
+    background-image: url(../images/icons/svg/web-icon-6.svg)
+}
+
+/*mobile*/
+.icon-mi1 {
+    background-image: url(../images/icons/svg/mobile-icon-1.svg)
+}
+.icon-mi2 {
+    background-image: url(../images/icons/svg/mobile-icon-2.svg)
+}
+.icon-mi3 {
+    background-image: url(../images/icons/svg/mobile-icon-3.svg)
+}
+
+/*cs*/
+.icon-cs1 {
+    background-image: url(../images/icons/svg/cs-icon-1.svg)
+}
+.icon-cs2 {
+    background-image: url(../images/icons/svg/cs-icon-2.svg)
+}
+.icon-cs3 {
+    background-image: url(../images/icons/svg/cs-icon-3.svg)
+}
+.icon-cs4 {
+    background-image: url(../images/icons/svg/cs-icon-4.svg)
+}
+
+/*des*/
+.icon-des1 {
+    background-image: url(../images/icons/svg/des-icon-1.svg)
+}
+.icon-des2 {
+    background-image: url(../images/icons/svg/des-icon-2.svg)
+}
+.icon-des3 {
+    background-image: url(../images/icons/svg/des-icon-3.svg)
+}
+
+
+/*game*/
+
+.icon-game1 {
+    background-image: url(../images/icons/svg/game-icon-1.svg)
+}
+
+.icon-game2 {
+    background-image: url(../images/icons/svg/game-icon-2.svg)
+}
+
+.icon-game3 {
+    background-image: url(../images/icons/svg/game-icon-3.svg)
+}
+
+.icon-game4 {
+    background-image: url(../images/icons/svg/game-icon-4.svg)
+}
+
+.icon-game5 {
+    background-image: url(../images/icons/svg/game-icon-5.svg)
+}
+
+.icon-game6 {
+    background-image: url(../images/icons/svg/game-icon-6.svg)
+} 
+
 .pricing__content-price,
 .pricing__grid-header--icon,
 .section__heading,
@@ -23935,6 +24058,10 @@ button:hover {
         min-height: 85vh;
         padding-bottom: 40px
     }
+
+    .masthead__style-watter--image img {
+        width: 93%; 
+    }
 }
 
 .demo__masthead--content {
@@ -24313,6 +24440,10 @@ button:hover {
     .mb-40 {
         margin-bottom: 20px
     }
+
+    .masthead__style-watter--image img {
+        width: 93%; 
+    }
 }
 
 .mb-60 {
@@ -24347,6 +24478,10 @@ button:hover {
     .offset-top-160 {
         margin-top: -80px
     }
+
+    .masthead__style-watter--image img {
+        width: 93%; 
+    }
 }
 
 .offset-bottom-80 {
@@ -24368,6 +24503,10 @@ button:hover {
 
     .sm-text-center {
         text-align: center
+    }
+
+    .masthead__style-watter--image img {
+        width: 93%; 
     }
 }
 .z-index {
@@ -24537,6 +24676,8 @@ ul.member-list:after {
     .member-list .team__card .img-fluid {
         height: 240px;
     }
+
+    
 }       
 @media (max-width: 991px){
    .masthead .col-lg-6 img{
@@ -24554,6 +24695,18 @@ ul.member-list:after {
     .member-list .team__card .img-fluid {
         height: 190px;
     }
+
+    .masthead__style-watter--image img {
+        width: 93%; 
+    }
+
+    .masthead__style-watter--image img {
+        width: 93%; 
+    }
+
+    .header__mobile.js-header-menu {
+        max-width: 50%;
+    }
 }
 
 @media (max-width:767px){
@@ -24568,6 +24721,23 @@ ul.member-list:after {
     }
     .member-list .team__card .img-fluid {
         height: 270px;
+    }
+
+    .masthead__style-watter--image img {
+        width: 93%; 
+    }
+
+    .menu.core-nav-list {
+        width: 50%;
+    }
+
+    button.mega-menu {
+        width: 100%;
+        text-align: left;
+    }
+
+    button.mega-menu::after{
+        display: none;
     }
 
 }

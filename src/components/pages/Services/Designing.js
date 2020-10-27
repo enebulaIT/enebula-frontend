@@ -58,7 +58,7 @@ const Designing = () => {
 					<div className="row">
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-device column-icon"></span>
+								<span className="icon icon-des1 column-icon"></span>
 								<h4>UI/UX</h4>
 								<p>
 									Crucial to a product and work closely together.
@@ -67,7 +67,7 @@ const Designing = () => {
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-gift column-icon"></span>
+								<span className="icon icon-des2 column-icon"></span>
 								<h4>Motion Graphics</h4>
 								<p>
 									Motion graphics are pieces of animation or digital footage which create the illusion of motion or rotation, and are usually combined with audio for use in multimedia projects.
@@ -76,7 +76,7 @@ const Designing = () => {
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-paper-plane column-icon"></span>
+								<span className="icon icon-des3 column-icon"></span>
 								<h4>Branding</h4>
 								<p>
 									No explanation needed for this one. 👑
@@ -88,7 +88,7 @@ const Designing = () => {
 			</section> 
 
 
-			<section className = "section">
+			{/* <section className = "section">
 				<div className = "container">
 					<div className="row">
 						<div className="col-lg-12">
@@ -113,7 +113,7 @@ const Designing = () => {
 						</div>
 					</div> 
 				</div>
-			</section>
+			</section> */}
 		</div>
 	);
 } 

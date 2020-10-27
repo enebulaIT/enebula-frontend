@@ -53,19 +53,19 @@ const MobileDevelopment = () => {
 					<div className="row">
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-device column-icon"></span>
+								<span className="icon icon-mi1 column-icon"></span>
 								<h4>Android App Development</h4> 
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-gift column-icon"></span>
+								<span className="icon icon-mi2 column-icon"></span>
 								<h4>IOS App Development</h4> 
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-paper-plane column-icon"></span>
+								<span className="icon icon-mi3 column-icon"></span>
 								<h4>Hybrid App Development</h4>
 								<p>
 									Develop applications for Android, iOS, Web and UWP at once.

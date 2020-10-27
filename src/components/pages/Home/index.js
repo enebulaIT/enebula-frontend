@@ -35,9 +35,9 @@ const Home = () => {
 								<div  className="masthead__content masthead__content-mtop">
 									<h1  className="masthead__content-title">You Dream it, We Do it.</h1>
 									<p  className="masthead__content-subtitle">Our team is here for you to do any digital venture you want to initiate. You just say the name, we’ll provide you all the needs you want.</p>
-									<div  className="masthead__content-action">
+									{/* <div  className="masthead__content-action">
 										<a  className="btn btn-primary btn-rounded btn-icon-left" href="/services">View Our Services</a> 
-									</div> 
+									</div>  */}
 								</div> 
 							</div> 
 							<div  className="col-lg-6 text-center">
@@ -63,55 +63,55 @@ const Home = () => {
 					</div>
 					<div  className="row">
 						<div  className="col-lg-4">
-							<div  className="section__column section__column-left"> <span  className="icon icon-gift column-icon"></span>
+							<div  className="section__column section__column-left"> <span  className="icon icon-hi1 column-icon"></span>
 								<h4>All in one package</h4>
 								<p> Everything you need under one hood. </p>
 							</div>
 						</div>
 						<div  className="col-lg-4">
-							<div  className="section__column section__column-left"> <span  className="icon icon-paper-plane column-icon"></span>
+							<div  className="section__column section__column-left"> <span  className="icon icon-hi2 column-icon"></span>
 								<h4>24×7×365 Help Desk</h4>
 								<p> Always there for you :) </p>
 							</div>
 						</div>
 						<div  className="col-lg-4">
-							<div  className="section__column section__column-left"> <span  className="icon icon-cogs column-icon"></span>
+							<div  className="section__column section__column-left"> <span  className="icon icon-hi3 column-icon"></span>
 								<h4>Easy & Quick</h4>
 								<p> Quick solutions that suits your need. </p>
 							</div>
 						</div>
 						<div  className="col-lg-4">
-							<div  className="section__column section__column-left"> <span  className="icon icon-flask column-icon"></span>
+							<div  className="section__column section__column-left"> <span  className="icon icon-hi4 column-icon"></span>
 								<h4>Modern Setup</h4>
 								<p> Up to date. Up to mark. </p>
 							</div>
 						</div>
 						<div  className="col-lg-4">
-							<div  className="section__column section__column-left"> <span  className="icon icon-tree column-icon"></span>
+							<div  className="section__column section__column-left"> <span  className="icon icon-hi5 column-icon"></span>
 								<h4>The most competitive pricing</h4>
 								<p> Small business? No problem. </p>
 							</div>
 						</div>
 						<div  className="col-lg-4">
-							<div  className="section__column section__column-left"> <span  className="icon icon-hard-disk column-icon"></span>
+							<div  className="section__column section__column-left"> <span  className="icon icon-hi6 column-icon"></span>
 								<h4>Experienced team</h4>
 								<p> Team of seasoned tech gurus. </p>
 							</div>
 						</div>
 						<div  className="col-lg-4">
-							<div  className="section__column section__column-left"> <span  className="icon icon-book column-icon"></span>
+							<div  className="section__column section__column-left"> <span  className="icon icon-hi7 column-icon"></span>
 								<h4>Secure</h4>
 								<p> Ultra high secure apps following market standard norms. </p>
 							</div>
 						</div>
 						<div  className="col-lg-4">
-							<div  className="section__column section__column-left"> <span  className="icon icon-chart column-icon"></span>
+							<div  className="section__column section__column-left"> <span  className="icon icon-hi8 column-icon"></span>
 								<h4>Creative</h4>
 								<p> Unique designs and ideas that will blow your minds away. </p>
 							</div>
 						</div>
 						<div  className="col-lg-4">
-							<div  className="section__column section__column-left"> <span  className="icon icon-device column-icon"></span>
+							<div  className="section__column section__column-left"> <span  className="icon icon-hi9 column-icon"></span>
 								<h4>Optimistic approach</h4>
 								<p> No ifs. No buts. Only result oriented work. </p>
 							</div>

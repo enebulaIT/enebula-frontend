@@ -58,7 +58,7 @@ const WebDevelopment = () => {
 					<div className="row">
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-device column-icon"></span>
+								<span className="icon icon-wi2 column-icon"></span>
 								<h4>Frontend Development</h4>
 								<p>
 									Building atrractive and eye-candy websites using modern tools.
@@ -67,7 +67,7 @@ const WebDevelopment = () => {
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-gift column-icon"></span>
+								<span className="icon icon-wi6 column-icon"></span>
 								<h4>Backend Development</h4>
 								<p>
 									Buidling optimised and performance focused backend services that integrates well with any frontend technology in the market.	
@@ -76,7 +76,7 @@ const WebDevelopment = () => {
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-paper-plane column-icon"></span>
+								<span className="icon icon-wi3 column-icon"></span>
 								<h4>Full-stack Web app development</h4>
 								<p>
 									End-to-end web based applications.
@@ -85,7 +85,7 @@ const WebDevelopment = () => {
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-chart column-icon"></span>
+								<span className="icon icon-wi4 column-icon"></span>
 								<h4>SEO</h4>
 								<p>
 									Search engine optimization for emproving your page rank.
@@ -94,7 +94,7 @@ const WebDevelopment = () => {
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-cogs column-icon"></span>
+								<span className="icon icon-wi5 column-icon"></span>
 								<h4>Static Site Development</h4>
 								<p>
 									Informative websites development. For small and new businesses.
@@ -103,7 +103,7 @@ const WebDevelopment = () => {
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-hard-disk column-icon"></span>
+								<span className="icon icon-wi1 column-icon"></span>
 								<h4>E-commerce store development</h4>
 								<p>
 									Go online to sell your products!

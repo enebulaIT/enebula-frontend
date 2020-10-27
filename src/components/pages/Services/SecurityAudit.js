@@ -52,7 +52,7 @@ const SecurityAudit = () => {
 					<div className="row">
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-device column-icon"></span>
+								<span className="icon icon-cs1 column-icon"></span>
 								<h4>VAPT</h4>
 								<p>
 									Security testing that is designed to identify and help address cyber security vulnerabilities.
@@ -61,7 +61,7 @@ const SecurityAudit = () => {
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-gift column-icon"></span>
+								<span className="icon icon-cs2 column-icon"></span>
 								<h4>Cyber Forensics</h4>
 								<p>
 									Preserve evidence from a particular computing device in a way that is suitable for presentation in a court of law.
@@ -70,7 +70,7 @@ const SecurityAudit = () => {
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-hard-disk column-icon"></span>
+								<span className="icon icon-cs3 column-icon"></span>
 								<h4>Server Management</h4>
 								<p>
 									Monitoring of the server and apps running on the server.
@@ -79,7 +79,7 @@ const SecurityAudit = () => {
 						</div>
 						<div className="col-lg-4">
 							<div className="section__column section__column-left">
-								<span className="icon icon-paper-plane column-icon"></span>
+								<span className="icon icon-cs4 column-icon"></span>
 								<h4>Testing</h4>
 								<p>
 									Checking whether the actual software product matches expected requirements and to ensure that software product is Defect free.
