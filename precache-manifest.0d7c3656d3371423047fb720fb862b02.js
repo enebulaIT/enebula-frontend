@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ab9a99c7bbb518ec6220cd28c59adce",
+    "revision": "488247c7610609a216f7af749c0f4c5d",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.d4e7eff5.chunk.css"
   },
   {
-    "revision": "d3ee0aa01f05e77d8a46",
-    "url": "/static/css/main.640f8498.chunk.css"
+    "revision": "7c11addbcbc21d64d63c",
+    "url": "/static/css/main.e4a40b18.chunk.css"
   },
   {
     "revision": "31f876ff1e63af220961",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.49314fb5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d3ee0aa01f05e77d8a46",
-    "url": "/static/js/main.0e59e308.chunk.js"
+    "revision": "7c11addbcbc21d64d63c",
+    "url": "/static/js/main.e8cfe894.chunk.js"
   },
   {
     "revision": "2747b914e9a60db2276f",
@@ -96,12 +96,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/consultantcy.8b592a2a.svg"
   },
   {
+    "revision": "c6d1ba1bd325118fc64e0e6d7d26823f",
+    "url": "/static/media/cs-icon-1.c6d1ba1b.svg"
+  },
+  {
+    "revision": "81445044d609d02c79a6ac612d028328",
+    "url": "/static/media/cs-icon-2.81445044.svg"
+  },
+  {
+    "revision": "807e65d12e407679ec15e3a17bf670aa",
+    "url": "/static/media/cs-icon-3.807e65d1.svg"
+  },
+  {
+    "revision": "f3e0a07f1ec99cc9b9c80cb3b6093793",
+    "url": "/static/media/cs-icon-4.f3e0a07f.svg"
+  },
+  {
     "revision": "ea60635b206b8aeafae0a713a1759aa0",
     "url": "/static/media/cta-bg.ea60635b.png"
   },
   {
     "revision": "c3b1f3d964b6b57e15d0eb5c1f309cd8",
     "url": "/static/media/demo-masthead-bg.c3b1f3d9.png"
+  },
+  {
+    "revision": "f00983ca153bebadb7dcc7ed5bb33e3c",
+    "url": "/static/media/des-icon-1.f00983ca.svg"
+  },
+  {
+    "revision": "b6c0f8129c62c58d9534ca216202e3c7",
+    "url": "/static/media/des-icon-2.b6c0f812.svg"
+  },
+  {
+    "revision": "81bb20f6aca4bebdb40fc85d6ad60608",
+    "url": "/static/media/des-icon-3.81bb20f6.svg"
   },
   {
     "revision": "33176c7c4e15a2fa97032c8c7b6d5ad1",
@@ -140,6 +168,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/flask.e19dd3c0.svg"
   },
   {
+    "revision": "7eca6ad81435750277296ac93c1db94e",
+    "url": "/static/media/game-icon-1.7eca6ad8.svg"
+  },
+  {
+    "revision": "514e16f43459535ff7888030b693f93d",
+    "url": "/static/media/game-icon-2.514e16f4.svg"
+  },
+  {
+    "revision": "095bac46378d8c81eb20061065a3e24c",
+    "url": "/static/media/game-icon-3.095bac46.svg"
+  },
+  {
+    "revision": "4f4e71dcaecc3b47ca434edd8634838f",
+    "url": "/static/media/game-icon-4.4f4e71dc.svg"
+  },
+  {
+    "revision": "33ec087823781eb1cb9c290fc2c9fc10",
+    "url": "/static/media/game-icon-5.33ec0878.svg"
+  },
+  {
+    "revision": "b588bbd4b41a4c93b83a43649c2387b4",
+    "url": "/static/media/game-icon-6.b588bbd4.svg"
+  },
+  {
     "revision": "26a1ae4d2dd90919e2c721e6ba967be4",
     "url": "/static/media/game.26a1ae4d.png"
   },
@@ -158,6 +210,42 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "96225f546978ef8f068bb8fcc057b1c9",
     "url": "/static/media/help.96225f54.svg"
+  },
+  {
+    "revision": "39b6d71a7251741f1a3a78ca7d4f15d0",
+    "url": "/static/media/home-icon-1.39b6d71a.svg"
+  },
+  {
+    "revision": "183330a83cc95438001cc3cc48cbf2b4",
+    "url": "/static/media/home-icon-2.183330a8.svg"
+  },
+  {
+    "revision": "3b0cbbe54946df66807368f45b771ad0",
+    "url": "/static/media/home-icon-3.3b0cbbe5.svg"
+  },
+  {
+    "revision": "f9eb04af97528708b5d5a28484965393",
+    "url": "/static/media/home-icon-4.f9eb04af.svg"
+  },
+  {
+    "revision": "01ffa43dc2822e7f13726f7c1e7e9052",
+    "url": "/static/media/home-icon-5.01ffa43d.svg"
+  },
+  {
+    "revision": "d573af2ddc14f5cd2c1c0747e13a69b6",
+    "url": "/static/media/home-icon-6.d573af2d.svg"
+  },
+  {
+    "revision": "a97640718215ee529fb9836ac660fc04",
+    "url": "/static/media/home-icon-7.a9764071.svg"
+  },
+  {
+    "revision": "36cffae49444decbbdfd27bb37f09796",
+    "url": "/static/media/home-icon-8.36cffae4.svg"
+  },
+  {
+    "revision": "d13171779074862125ac753051eef440",
+    "url": "/static/media/home-icon-9.d1317177.svg"
   },
   {
     "revision": "25867ed5d81ec2e06654187ba0a70aba",
@@ -210,6 +298,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1dbabb0bb9a5d40fd5737dfd38001397",
     "url": "/static/media/megamenu-bg.1dbabb0b.svg"
+  },
+  {
+    "revision": "32a851b0e6c0ce25719ed9d3f6aebbb6",
+    "url": "/static/media/mobile-icon-1.32a851b0.svg"
+  },
+  {
+    "revision": "3fe111046adfd151e0a0c9014da4b82f",
+    "url": "/static/media/mobile-icon-2.3fe11104.svg"
+  },
+  {
+    "revision": "7debe3bb9fcbea4c35255d8bc4f7e15d",
+    "url": "/static/media/mobile-icon-3.7debe3bb.svg"
   },
   {
     "revision": "ade91f473255991f410f61857696434b",
@@ -326,6 +426,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ecc335aa656a2bdbdb368b0befc79b03",
     "url": "/static/media/wallet.ecc335aa.svg"
+  },
+  {
+    "revision": "90e21f62197375075e275d092c46e90b",
+    "url": "/static/media/web-icon-1.90e21f62.svg"
+  },
+  {
+    "revision": "78569a859a7ab94f01346eb8d92c9933",
+    "url": "/static/media/web-icon-2.78569a85.svg"
+  },
+  {
+    "revision": "ba4d55b5bdbea4c9c8ae73d6563adcbd",
+    "url": "/static/media/web-icon-3.ba4d55b5.svg"
+  },
+  {
+    "revision": "fb20996b68016c352d74b34643a59120",
+    "url": "/static/media/web-icon-4.fb20996b.svg"
+  },
+  {
+    "revision": "98a1f4e72c916b2113603a1fc95d1be3",
+    "url": "/static/media/web-icon-5.98a1f4e7.svg"
+  },
+  {
+    "revision": "1cec3ee95f0f7474301069a18016d192",
+    "url": "/static/media/web-icon-6.1cec3ee9.svg"
   },
   {
     "revision": "3e354f42280ea518d6ca08dd1d5da99a",
