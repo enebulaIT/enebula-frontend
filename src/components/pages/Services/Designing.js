@@ -1,15 +1,9 @@
 import React, { useEffect, useState } from 'react'; 
 import heroImage from '../../../images/serviceBanners/design.png';
-import { Link } from 'react-router-dom';    
-import portfolioData from '../../../portfolioData'; 
-import ReactImageVideoLightbox from 'react-image-video-lightbox';
+import { Link } from 'react-router-dom';     
+import Portfolio from '../../common/Portfolio';
 
-const Designing = () => { 
-
-	const [activeIndex, setActiveIndex] = useState(0);
-	const [isOpen, setIsOpen] = useState(false);
-	const [activeTab, setActiveTab] = useState('1');
-	const [hoverIndex, setHoverIndex] = useState(0);
+const Designing = () => {  
 
 	useEffect(() => {
 		async function fetchData () {
@@ -18,49 +12,7 @@ const Designing = () => {
 		}
 
 		fetchData();
-	}, []); 
-	
-  const openLightbox = (id) => {
-		setIsOpen(true);
-		setActiveIndex(id);
-	}
-		
-	const closeLightbox = () => {
-		setIsOpen(false);
-	} 
-  
-
-
-	let lightbox = null;
-	if(isOpen) {
-		lightbox = (
-			<ReactImageVideoLightbox 
-				data = {portfolioData.designing.explainerVideos}
-				startIndex={activeIndex}
-				showResourceCount={true}
-				onCloseCallback={closeLightbox}
-			/>
-		);
-	} 
-
-	let thumbSource = [];
-	if(activeTab === '1') {
-		thumbSource = portfolioData.designing.explainerVideos.map(item => {
-			return {
-				id: item.id,
-				image: item.thumb
-			}
-		});
-	} else if(activeTab === '2') {
-		thumbSource = portfolioData.designing.logos.map(item => {
-			return {
-				id: item.id,
-				image: item.thumb
-			}
-		});
-	}
-
-	
+	}, []);  
 
 	return (
 		<div>
@@ -132,71 +84,12 @@ const Designing = () => {
 				</div>
 			</section> 
 
-			<section className="section pt-40">
-				<div className="container">
+			<Portfolio 
+				componentFor = "designing"
+				fetchDataFor = {['explainerVideos', 'logos', 'promotionalVideos', '_3dNvfx']}
+			/>
 
-					<div className="gallery__filter">
-						<ul className="gallery__filter--list">
-							<li className = {activeTab === '1' ? 'active' : '' }>
-								<button
-									onClick = {() => setActiveTab('1')}
-									className="gallery__filter--list-link">Explainer Videos</button>
-							</li>
-
-							<li className = {activeTab === '2' ? 'active' : '' }>
-								<button
-									onClick = {() => setActiveTab('2')} 
-									className="gallery__filter--list-link">Logos</button>
-							</li>
-
-							<li className = {activeTab === '3' ? 'active' : '' }>
-								<button
-									onClick = {() => setActiveTab('3')} 
-									className="gallery__filter--list-link">Promoional Videos</button>
-							</li>
-
-							<li className = {activeTab === '4' ? 'active' : '' }>
-								<button 
-									onClick = {() => setActiveTab('4')}
-									className="gallery__filter--list-link">3D &amp; VFX</button>
-							</li>
-						</ul>
-					</div>
-					
-					<div className="gallery__content">
-						<div className="row">
-							{
-								thumbSource.map(item => {
-									return ( 
-										<div className="col-lg-4">
-											<div className="gallery__item">
-												<div
-													onClick = {() => {openLightbox(item.id)}} 
-													className="gallery__item--image js-item-image js-zoom-image">
-
-													<div className="gallery__item--image--background js-image-background" 
-														style={{backgroundImage: `url(${item.image})`}}>
-													</div>
-
-													<div class="gallery__item--image--overlay">
-														<i class="fa fa-search"></i>
-													</div>
-												</div>  
-
-											</div>
-										</div> 
-									);
-								})
-							}  	 
-
-						</div>
-					</div>
-
-				</div>
-				<div className = "custom-lightbox"> 
-					{lightbox}
-				</div>
-			</section>
+			
 		</div>
 	);
 } 
