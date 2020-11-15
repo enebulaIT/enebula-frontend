@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7d449653e20f4a7152f29d37f86720a",
+    "revision": "2f67a7f51e77c993e5819c4317ad9fee",
     "url": "/index.html"
   },
   {
-    "revision": "31f876ff1e63af220961",
-    "url": "/static/css/2.d4e7eff5.chunk.css"
+    "revision": "1665e9548005ea645b08",
+    "url": "/static/css/main.95989728.chunk.css"
   },
   {
-    "revision": "b38b799511d48f3bbe04",
-    "url": "/static/css/main.b8be1d12.chunk.css"
+    "revision": "23275da085e1ccb72e23",
+    "url": "/static/js/2.96ece1b1.chunk.js"
   },
   {
-    "revision": "31f876ff1e63af220961",
-    "url": "/static/js/2.49314fb5.chunk.js"
+    "revision": "d8fd627805a9208fba2a6acfc94121dd",
+    "url": "/static/js/2.96ece1b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cacaf3f01dd3bd8237006f7c58951c1c",
-    "url": "/static/js/2.49314fb5.chunk.js.LICENSE.txt"
-  },
-  {
-    "revision": "b38b799511d48f3bbe04",
-    "url": "/static/js/main.01e46597.chunk.js"
+    "revision": "1665e9548005ea645b08",
+    "url": "/static/js/main.d6e56a67.chunk.js"
   },
   {
     "revision": "2747b914e9a60db2276f",
     "url": "/static/js/runtime-main.c8a21426.js"
+  },
+  {
+    "revision": "afbfb74ec808776e98c0ef825e21ead0",
+    "url": "/static/media/3D.afbfb74e.png"
   },
   {
     "revision": "a905f8d9780956b0eebbd543083240e0",
@@ -36,16 +36,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/GAME.02029fe7.svg"
   },
   {
-    "revision": "37a547c43757264a30d8f07f6ccbd5fd",
-    "url": "/static/media/The-Wolf-Pack.37a547c4.svg"
+    "revision": "3a1af49f4b7647091fdf0d59b4032dbb",
+    "url": "/static/media/The-Wolf-Pack.3a1af49f.svg"
   },
   {
-    "revision": "be900c7542ed69de3e2013d9d4b2b549",
-    "url": "/static/media/The-Wolf-Pack.be900c75.svg"
+    "revision": "5c936c6a9de6aee54da489e23b3b4b0c",
+    "url": "/static/media/The-Wolf-Pack.5c936c6a.svg"
+  },
+  {
+    "revision": "86d8cb7ea084dbd43589384c825effb3",
+    "url": "/static/media/The-Wolf-Pack.86d8cb7e.svg"
   },
   {
     "revision": "696ed8286922c2a2b5d297268421f37d",
     "url": "/static/media/Trident-gym.696ed828.svg"
+  },
+  {
+    "revision": "8465a4578584cabb1d442b938fdeb080",
+    "url": "/static/media/Trident-gym.8465a457.svg"
   },
   {
     "revision": "cb71146ced66e23b7f806c9f7d16a693",
@@ -56,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/about-us-1.ba77afed.png"
   },
   {
-    "revision": "14ed401e844dcd973ccd48ee8ff7e6a1",
-    "url": "/static/media/anirudha.14ed401e.jpg"
+    "revision": "a0c025e745743775f0a8c5a2ac0a71b3",
+    "url": "/static/media/anirudha.a0c025e7.png"
   },
   {
     "revision": "2b8f6f65343b1508b96ab34427b55138",
@@ -68,16 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/aryaan.1495b340.svg"
   },
   {
+    "revision": "19f5f2002dbb2f3c05b74b5ba49eafe1",
+    "url": "/static/media/aryaan.19f5f200.svg"
+  },
+  {
     "revision": "466afd2452df35717b0df5640ce38e79",
     "url": "/static/media/aryaan.466afd24.svg"
   },
   {
     "revision": "432474b6c78c61d8575725476f6d213d",
     "url": "/static/media/ashit.432474b6.jpg"
-  },
-  {
-    "revision": "683d1102be967aa3933bf2c82c1e19b3",
-    "url": "/static/media/bhavesh.683d1102.jpg"
   },
   {
     "revision": "598525f13f8af14170b777c30d8b2ba7",
@@ -152,8 +160,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/enixmo.74a495e5.svg"
   },
   {
+    "revision": "aab9ed86c03f88be11b3779a0d89a356",
+    "url": "/static/media/enixmo.aab9ed86.svg"
+  },
+  {
     "revision": "e899a355d045620d566a2bf6d944010b",
     "url": "/static/media/enixmo.e899a355.svg"
+  },
+  {
+    "revision": "e0a4ba56fe61c834f79834b59472c3c0",
+    "url": "/static/media/ev1.e0a4ba56.jpeg"
+  },
+  {
+    "revision": "a5a864e94f6019f32b0136eec6cd7fe2",
+    "url": "/static/media/ev2.a5a864e9.jpeg"
+  },
+  {
+    "revision": "47dfbf621962addda459b799ad5c839e",
+    "url": "/static/media/fchip.47dfbf62.svg"
   },
   {
     "revision": "5b1821690fb1cfed351456ce0b2c73f9",
@@ -204,10 +228,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hard-disk.e2500afc.svg"
   },
   {
-    "revision": "8cbb97eedaafcb4c70cfef668c08282d",
-    "url": "/static/media/hardik.8cbb97ee.jpeg"
-  },
-  {
     "revision": "96225f546978ef8f068bb8fcc057b1c9",
     "url": "/static/media/help.96225f54.svg"
   },
@@ -256,12 +276,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/icons-bg@2x.337733ab.png"
   },
   {
-    "revision": "35b70d7b235281c5d2608f59f8274a3c",
-    "url": "/static/media/ixclibano.35b70d7b.svg"
+    "revision": "3a286e6368f30939f5ccd907462b66a6",
+    "url": "/static/media/ixclibano.3a286e63.svg"
   },
   {
-    "revision": "868ebd08d5e037d011fab3edb7c04c3b",
-    "url": "/static/media/ixclibano.868ebd08.svg"
+    "revision": "4d95645842b6d4f1cff846d1a4804250",
+    "url": "/static/media/ixclibano.4d956458.svg"
+  },
+  {
+    "revision": "cd820c4fd47a4c2fec4f3d72cf5cdc51",
+    "url": "/static/media/ixclibano.cd820c4f.svg"
   },
   {
     "revision": "126b9496971f925ab2138e14418b4e41",
@@ -296,8 +320,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mayur.b003e01b.jpeg"
   },
   {
-    "revision": "1dbabb0bb9a5d40fd5737dfd38001397",
-    "url": "/static/media/megamenu-bg.1dbabb0b.svg"
+    "revision": "e2f0ebb573c98ef892a7a283b1b18685",
+    "url": "/static/media/megamenu-bg.e2f0ebb5.svg"
   },
   {
     "revision": "32a851b0e6c0ce25719ed9d3f6aebbb6",
@@ -368,12 +392,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pricing-bg-yellow@2x.2cf1f790.png"
   },
   {
+    "revision": "2a77d12eafe09f350b7fbf858dabe655",
+    "url": "/static/media/pv1.2a77d12e.jpeg"
+  },
+  {
+    "revision": "ad7fdb6bc3fc177d7b2898882b95897b",
+    "url": "/static/media/pv2.ad7fdb6b.jpeg"
+  },
+  {
+    "revision": "6f24d6994bbeef599b108757dc03e811",
+    "url": "/static/media/pv3.6f24d699.jpg"
+  },
+  {
+    "revision": "39332f937edd4bd9559fd751629cfacd",
+    "url": "/static/media/pv4.39332f93.jpg"
+  },
+  {
+    "revision": "1cb1f2364fc52b57c27e3f72778e8f37",
+    "url": "/static/media/pv5.1cb1f236.jpeg"
+  },
+  {
     "revision": "21320a012bfe1d3a58a08ae42c3489ed",
     "url": "/static/media/question.21320a01.svg"
   },
   {
     "revision": "32a16f2d11e4d1f61340f88b15023a6c",
     "url": "/static/media/rasaba.32a16f2d.svg"
+  },
+  {
+    "revision": "41701fcf8f007d474ef80b0473ff0ed0",
+    "url": "/static/media/rasaba.41701fcf.svg"
   },
   {
     "revision": "92f27fb02054b1d17c9e01b9192a3afe",
