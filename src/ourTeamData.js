@@ -1,9 +1,9 @@
 import AnirudhImage from './images/members/anirudha.png';
-import AshitImage from './images/members/ashit.jpg'; 
+import AshitImage from './images/members/ashit.png'; 
 import JemsImage from './images/members/jemish.jpeg';
 import JunedImage from './images/members/juned.jpg';
-import MayurImage from './images/members/mayur.jpeg';
-import VatsalImage from './images/members/vatsal.jpg';
+import MayurImage from './images/members/mayur.png';
+import VatsalImage from './images/members/vatsal.png';
 
 export default [
     {

@@ -23328,7 +23328,8 @@ button:hover {
 }
 
 .team__thumbnail {
-    overflow: hidden
+    overflow: hidden;
+    text-align: center;
 }
 
 .team__thumbnail img {
@@ -23338,6 +23339,7 @@ button:hover {
 .team__content {
     border-top: none;
     padding: 14px 30px 0;
+    text-align: center;
 }
 
 .team__content--heading {
@@ -24624,11 +24626,10 @@ ul.slick-dots {
     margin: 30px 0 0 20px;
 }  
 .member-list .team__card .img-fluid {
-    height: 300px;
-    width: 100%;
-    transform: scale(1.2) rotateZ(6deg);
-    transition: transform .2s ease-out;
+    height: 50%;
+    width: 50%; 
     object-fit: cover;
+    border-radius: 50%;
 } 
 .masthead .col-lg-6:first-child {
     display: flex;
@@ -24663,6 +24664,10 @@ ul.member-list:after {
         height: 240px;
     }
 
+    .card-wrapper { 
+        height: 300px;
+    }
+
     
 }       
 @media (max-width: 991px){
@@ -24679,7 +24684,7 @@ ul.member-list:after {
         margin: 30px 0 0 10px;
     }
     .member-list .team__card .img-fluid {
-        height: 190px;
+        height: 50%;
     }
 
     .masthead__style-watter--image img {
@@ -24707,7 +24712,10 @@ ul.member-list:after {
         padding: 0 5px;
     }
     .member-list .team__card .img-fluid {
-        height: 270px;
+        height: 50%;
+    }
+    .card-wrapper { 
+        height: 280px;
     }
 
     .masthead__style-watter--image img {
@@ -24745,4 +24753,11 @@ body.no-sroll {
 
 .gallery__content.svg-type .gallery__item--image--background {
     background-size: auto !important;
+}
+
+.card-wrapper {
+    padding: 33px;
+    background-color: white;
+    border-radius: 5%;
+    height: 325px;
 }
