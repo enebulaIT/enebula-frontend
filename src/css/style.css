@@ -72,7 +72,7 @@ progress,
 sub,
 sup {
     vertical-align: baseline
-}
+} 
 
 label,
 output {
@@ -23274,13 +23274,7 @@ button:hover {
 
 .hero__standout--content {
     padding: 40px 20px 0
-}
-
-.team__card {
-    -webkit-box-shadow: -1px 4px 10px rgba(0, 0, 0, .05);
-    box-shadow: -1px 4px 10px rgba(0, 0, 0, .05);
-    margin-bottom: 40px
-}
+} 
 
 @media (min-width:768px) and (max-width:991px) {
     .team__card {
@@ -23294,10 +23288,7 @@ button:hover {
     }
 }
 
-.team__card:hover img {
-    -webkit-transform: scale(1.08);
-    transform: scale(1.08)
-}
+
 
 .team__card--join {
     display: table;
@@ -24631,28 +24622,14 @@ ul.slick-dots {
     height: 100%;
     box-shadow: none;
     margin: 30px 0 0 20px;
-}
-.member-list .team__card .team__thumbnail {
-    border: 5px solid #302c8b;
-    border-radius: 30px;
-    background: #302c8b;
-    transform: translateX(2%) rotateZ(-6deg);
-    transform-origin: 0 100%;
-    transition: transform .2s ease-out;
-}
-.member-list .team__card:hover .team__thumbnail {
-    transform: none;
-}
+}  
 .member-list .team__card .img-fluid {
     height: 300px;
     width: 100%;
     transform: scale(1.2) rotateZ(6deg);
     transition: transform .2s ease-out;
     object-fit: cover;
-}
-.member-list .team__card:hover .img-fluid {
-    transform: scale(1.1) rotateZ(0deg);
-}
+} 
 .masthead .col-lg-6:first-child {
     display: flex;
     align-items: center;
@@ -24754,4 +24731,18 @@ ul.member-list:after {
 
 .custom-lightbox > div {
     z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    position: fixed !important; 
+}
+
+.custom-lightbox.svg-type img {
+    width: 500px;
+}
+
+body.no-sroll {
+    overflow: hidden;
+}
+
+.gallery__content.svg-type .gallery__item--image--background {
+    background-size: auto !important;
 }

@@ -17,6 +17,15 @@ import rasabaReg from './images/ourClients/reg/rasaba.svg';
 import tfwReg from './images/ourClients/reg/The-Wolf-Pack.svg';
 import ttgReg from './images/ourClients/reg/Trident-gym.svg'; 
 
+import aryaanBg from './images/ourClients/bg/aryaan.svg';
+import enixmoBg from './images/ourClients/bg/enixmo.svg';
+import fchipBg from './images/ourClients/bg/fchip.svg';
+import ixclibanoBg from './images/ourClients/bg/ixclibano.svg';
+import rasabaBg from './images/ourClients/bg/rasaba.svg';
+import tfwBg from './images/ourClients/bg/The-Wolf-Pack.svg';
+import ttgBg from './images/ourClients/bg/Trident-gym.svg'; 
+
+
 export default {
     designing: {
         explainerVideos: {
@@ -45,59 +54,66 @@ export default {
             data: [
                 {
                     id: 1,
-                    url:  aryaanReg, 
+                    url:  aryaanBg, 
                     type: 'photo',
                     altTag: 'tester',
                     thumb: aryaanReg,
-                    title: 'Aryaan'
+                    title: 'Aryaan',
+                    mimeType: 'svg'
                 },
                 {
                     id: 2,
-                    url:  enixmoReg, 
+                    url:  enixmoBg, 
                     type: 'photo',
                     altTag: 'tester',
                     thumb: enixmoReg,
-                    title: 'Enixmo'
+                    title: 'Enixmo',
+                    mimeType: 'svg'
                 },
                 {
                     id: 3,
-                    url:  fchipReg, 
+                    url:  fchipBg, 
                     type: 'photo',
                     altTag: 'tester',
                     thumb: fchipReg,
-                    title: 'Fortunachip'
+                    title: 'Fortunachip',
+                    mimeType: 'svg'
                 },
                 {
                     id: 4,
-                    url:  ixclibanoReg, 
+                    url:  ixclibanoBg, 
                     type: 'photo',
                     altTag: 'tester',
                     thumb: ixclibanoReg, 
-                    title: 'Ixclibano'
+                    title: 'Ixclibano',
+                    mimeType: 'svg'
                 },
                 {
                     id: 5,
-                    url:  rasabaReg, 
+                    url:  rasabaBg, 
                     type: 'photo',
                     altTag: 'tester',
                     thumb: rasabaReg,
-                    title: 'Rasaba'
+                    title: 'Rasaba',
+                    mimeType: 'svg'
                 },
                 {
                     id: 6,
-                    url:  tfwReg, 
+                    url:  tfwBg, 
                     type: 'photo',
                     altTag: 'tester',
                     thumb: tfwReg,
-                    title: 'The Wolf Pack'
+                    title: 'The Wolf Pack',
+                    mimeType: 'svg'
                 },
                 {
                     id: 7,
-                    url:  ttgReg, 
+                    url:  ttgBg, 
                     type: 'photo',
                     altTag: 'tester',
                     thumb: ttgReg,
-                    title: 'Trident gym'
+                    title: 'Trident gym',
+                    mimeType: 'svg'
                 }
             ] 
         },

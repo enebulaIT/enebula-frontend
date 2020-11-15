@@ -58,7 +58,7 @@ const Home = () => {
 					</div>
 					<div  className="row">
 						<div  className="col-lg-8 offset-lg-2 text-center mb-40">
-							<p> Since inception, eNebula is only focused to be better than what were yesterday, and so that we’re always ready to provide comprehensive services to help enterprises what is best in the Market. With Our holistic approach, astonishing problem solving abilities, and operational readiness. We identify and strive to satisfy the demand of our customers which made us one of the top initiator in business. </p>
+							<p> Since inception, eNebula is only focused to be better than what we were yesterday, and so that we’re always ready to provide comprehensive services to help enterprises do what is best in the Market. With Our holistic approach, astonishing problem solving abilities, and operational readiness. We identify and strive to satisfy the demand of our customers which makes us one of the top initiators in business.  </p>
 						</div>
 					</div>
 					<div  className="row">

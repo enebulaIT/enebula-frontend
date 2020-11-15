@@ -40,7 +40,8 @@ const Portfolio = props => {
             id: item.id,
             image: item.thumb,
             title: item.title,
-            type: item.type
+            type: item.type,
+            mimetype: item.mimeType ? item.mimeType : 'unknown' 
         }
     }); 
 
@@ -53,9 +54,14 @@ const Portfolio = props => {
                     className="gallery__filter--list-link">{portfolioData[props.componentFor][item].title}</button>
             </li>
         );
-    });
+    }); 
 
-    console.log(hovereditem);
+    if(isOpen) {
+        document.body.classList.add("no-sroll")
+    } else {
+        document.body.classList.remove("no-sroll")
+    }
+ 
     return (
         <section className="section pt-40">
             <div className="container">
@@ -73,7 +79,7 @@ const Portfolio = props => {
                     </ul>
                 </div>
                 
-                <div className="gallery__content">
+                <div className = {`gallery__content ${thumbSource[0].mimetype}-type`}>
                     <div className="row">
                         {
                             thumbSource.map((item, key) => {
@@ -110,7 +116,7 @@ const Portfolio = props => {
                 </div>
 
             </div>
-            <div className = "custom-lightbox"> 
+            <div className = {`custom-lightbox ${thumbSource[0].mimetype}-type`}> 
                 {lightbox}
             </div>
         </section>
