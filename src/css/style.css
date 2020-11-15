@@ -24761,3 +24761,13 @@ body.no-sroll {
     border-radius: 5%;
     height: 325px;
 }
+
+.contact__aside--widget.social-icons a {
+    text-decoration: none;
+}
+
+.contact__aside--widget.social-icons .fa {
+    font-size: 22px;
+    padding: 10px;
+    color: #2c2d2d;
+}

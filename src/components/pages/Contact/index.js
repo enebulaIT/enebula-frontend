@@ -67,6 +67,18 @@ const Contact = () => {
 								<h5 className="contact__aside--widget-title"><i className="fa fa-envelope"></i> Email address</h5>
 								<a href = "mailto:admin@fortunachip.com"><p>admin@enebula.com</p></a>
 			                  </div>
+
+								<div class="contact__aside--widget social-icons">
+									<a target = "_blank" href = "https://www.facebook.com/ENebula-108501717723475">
+										<i class="fa fa-facebook-square"></i>
+									</a> 
+									<a href = "https://www.youtube.com/channel/UCYVTSNmqprMaK9_sxUzIiGA" target = "_blank">
+										<i class="fa fa-youtube"></i> 
+									</a>
+									<a href = "https://twitter.com/e_nebula" target = "_blank">
+										<i class="fa fa-twitter"></i> 
+									</a>
+								</div>
 			               </div>
 			            </aside>
 			         </div>
