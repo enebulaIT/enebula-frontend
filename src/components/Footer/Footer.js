@@ -8,7 +8,7 @@ const Footer = ({ className }) => {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="footer__widget">
-                            <img src={process.env.PUBLIC_URL + '/logo.png'} className="footer__widget-logo" alt="Smooth" /> 
+                            <img src={process.env.PUBLIC_URL + '/logonew-font.png'} className="footer__widget-logo" alt="Smooth" /> 
                         </div>
                          <div className="col-md-6">
                             <p>© <a href="/">eNebula</a> | 2020. All Rights Reserved.</p>
