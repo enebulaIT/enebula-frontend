@@ -143,7 +143,7 @@ export default {
                     type: 'video',
                     altTag: 'Explainer Video',
                     thumb: pv5,
-                    title: 'Product promotion: Obotap.'
+                    title: 'Product promotion: Obotap'
                 }
             ]  
         },

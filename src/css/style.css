@@ -24752,6 +24752,6 @@ ul.member-list:after {
     max-width: 600px;
 }
 
-.ReactModal__Overlay.ReactModal__Overlay--after-open {
-    z-index: 2000 !important;
+.custom-lightbox > div {
+    z-index: 9999;
 }

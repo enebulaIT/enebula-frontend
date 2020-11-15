@@ -28,7 +28,8 @@ const Portfolio = props => {
 				data = {portfolioData[props.componentFor][activeTab].data}
 				startIndex={activeIndex}
 				showResourceCount={true}
-				onCloseCallback={closeLightbox}
+                onCloseCallback={closeLightbox}
+                className = "tester"
 			/>
 		);
 	} 
