@@ -42,7 +42,9 @@ const Header = (props) => {
 		            </div> 
 		            <div className="wrap-core-nav-list right"> 
 		                <div className="header__mobile js-header-menu">
-		                    <Link to="/" className="header__mobile-brand">Menu</Link>
+							<Link to="/" className="brand">
+								<img src = {process.env.PUBLIC_URL + '/logonew-font.png'} className="logo" alt="Smooth" />
+							</Link>
 		                    <button
 		                    	onClick = {() => {props.setSideMenuVisibility(!props.sideMenuVisibility)}} 
 		                    	className="toggle-bar header__mobile-toggle core-nav-toggle">

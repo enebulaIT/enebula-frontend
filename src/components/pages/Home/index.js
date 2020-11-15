@@ -230,14 +230,21 @@ const Home = () => {
 							<UserTestimoni />
 						</div>
 					</div>
-					<div className="row">
-						<div className="col">
-							<div className="divider"></div>
-							<OurClients />
-						</div>
+				</div>
+				
+				<div className="divider"></div>
+				
+				<div className="row mt-100">
+					<div className="col-lg-6 offset-lg-3">
+						<h2 className="section__heading section__heading-center">Our Clients</h2>
 					</div>
 				</div>
-			</section> 
+				<div className="row">
+					<div className="col">
+						<OurClients />
+					</div>
+				</div> 
+			</section>  
 		</div>
 	);
 }

@@ -19365,7 +19365,8 @@ screen and (max-height:300px) {
     .header:hover .core-nav .wrap-core-nav-list.right .menu,
     .header__inner .core-nav .wrap-core-nav-list.right .menu,
     .header__sticky .core-nav .wrap-core-nav-list.right .menu {
-        padding: 0 15px !important
+        padding: 0 15px !important;
+        margin-top: 25px;
     }
 
     .header .core-nav .wrap-core-nav-list.right .menu li,
@@ -24749,4 +24750,8 @@ ul.member-list:after {
 
 .row img.img-fluid {
     max-width: 600px;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    z-index: 2000 !important;
 }

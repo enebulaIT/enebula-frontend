@@ -1,12 +1,15 @@
-import React, { useEffect } from 'react'; 
+import React, { useEffect, useState } from 'react'; 
 import heroImage from '../../../images/serviceBanners/design.png';
-import { Link } from 'react-router-dom'; 
-import { Tabs } from 'antd';
-import 'antd/dist/antd.css';
-
-const { TabPane } = Tabs;
+import { Link } from 'react-router-dom';    
+import portfolioData from '../../../portfolioData'; 
+import ReactImageVideoLightbox from 'react-image-video-lightbox';
 
 const Designing = () => { 
+
+	const [activeIndex, setActiveIndex] = useState(0);
+	const [isOpen, setIsOpen] = useState(false);
+	const [activeTab, setActiveTab] = useState('1');
+	const [hoverIndex, setHoverIndex] = useState(0);
 
 	useEffect(() => {
 		async function fetchData () {
@@ -15,7 +18,49 @@ const Designing = () => {
 		}
 
 		fetchData();
-	}, []);
+	}, []); 
+	
+  const openLightbox = (id) => {
+		setIsOpen(true);
+		setActiveIndex(id);
+	}
+		
+	const closeLightbox = () => {
+		setIsOpen(false);
+	} 
+  
+
+
+	let lightbox = null;
+	if(isOpen) {
+		lightbox = (
+			<ReactImageVideoLightbox 
+				data = {portfolioData.designing.explainerVideos}
+				startIndex={activeIndex}
+				showResourceCount={true}
+				onCloseCallback={closeLightbox}
+			/>
+		);
+	} 
+
+	let thumbSource = [];
+	if(activeTab === '1') {
+		thumbSource = portfolioData.designing.explainerVideos.map(item => {
+			return {
+				id: item.id,
+				image: item.thumb
+			}
+		});
+	} else if(activeTab === '2') {
+		thumbSource = portfolioData.designing.logos.map(item => {
+			return {
+				id: item.id,
+				image: item.thumb
+			}
+		});
+	}
+
+	
 
 	return (
 		<div>
@@ -87,33 +132,71 @@ const Designing = () => {
 				</div>
 			</section> 
 
+			<section className="section pt-40">
+				<div className="container">
 
-			{/* <section className = "section">
-				<div className = "container">
-					<div className="row">
-						<div className="col-lg-12">
-							<h2 className="section__heading section__heading-center">Portfolio</h2>
-							<Tabs type="card">
-								<TabPane tab="Tab Title 1" key="1">
-									<p>Content of Tab Pane 1</p>
-									<p>Content of Tab Pane 1</p>
-									<p>Content of Tab Pane 1</p>
-								</TabPane>
-								<TabPane tab="Tab Title 2" key="2">
-									<p>Content of Tab Pane 2</p>
-									<p>Content of Tab Pane 2</p>
-									<p>Content of Tab Pane 2</p>
-								</TabPane>
-								<TabPane tab="Tab Title 3" key="3">
-									<p>Content of Tab Pane 3</p>
-									<p>Content of Tab Pane 3</p>
-									<p>Content of Tab Pane 3</p>
-								</TabPane>
-							</Tabs>
+					<div className="gallery__filter">
+						<ul className="gallery__filter--list">
+							<li className = {activeTab === '1' ? 'active' : '' }>
+								<button
+									onClick = {() => setActiveTab('1')}
+									className="gallery__filter--list-link">Explainer Videos</button>
+							</li>
+
+							<li className = {activeTab === '2' ? 'active' : '' }>
+								<button
+									onClick = {() => setActiveTab('2')} 
+									className="gallery__filter--list-link">Logos</button>
+							</li>
+
+							<li className = {activeTab === '3' ? 'active' : '' }>
+								<button
+									onClick = {() => setActiveTab('3')} 
+									className="gallery__filter--list-link">Promoional Videos</button>
+							</li>
+
+							<li className = {activeTab === '4' ? 'active' : '' }>
+								<button 
+									onClick = {() => setActiveTab('4')}
+									className="gallery__filter--list-link">3D &amp; VFX</button>
+							</li>
+						</ul>
+					</div>
+					
+					<div className="gallery__content">
+						<div className="row">
+							{
+								thumbSource.map(item => {
+									return ( 
+										<div className="col-lg-4">
+											<div className="gallery__item">
+												<div
+													onClick = {() => {openLightbox(item.id)}} 
+													className="gallery__item--image js-item-image js-zoom-image">
+
+													<div className="gallery__item--image--background js-image-background" 
+														style={{backgroundImage: `url(${item.image})`}}>
+													</div>
+
+													<div class="gallery__item--image--overlay">
+														<i class="fa fa-search"></i>
+													</div>
+												</div>  
+
+											</div>
+										</div> 
+									);
+								})
+							}  	 
+
 						</div>
-					</div> 
+					</div>
+
 				</div>
-			</section> */}
+				<div className = "custom-lightbox"> 
+					{lightbox}
+				</div>
+			</section>
 		</div>
 	);
 } 
