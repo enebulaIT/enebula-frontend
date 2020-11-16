@@ -9,34 +9,36 @@ export default [
     {
         featured_image: AnirudhImage,
         post_title: "Anirudha Sah",
-        designation: "Lead Frontend Developer", 
+        designation: "Co-Founder", 
         twitter_link: "https://twitter.com/anna007sah",
         linkedin_link: "https://www.linkedin.com/in/anirudha-sah-0b966b146/" 
     },
     {
-        featured_image: AshitImage,
-        post_title: "Ashit Hingrajiya",
-        designation: "Lead Backend Developer",  
-        twitter_link: "https://twitter.com/attaboy_ashit",
-        linkedin_link: "https://linkedin.com" 
-    },
-    {
-        featured_image: MayurImage,
-        post_title: "Mayurdhwajsinh Gohil",
-        designation: "Lead App Developer", 
-        twitter_link: "https://twitter.com/mayur_g7",
-        linkedin_link: "https://www.linkedin.com/in/ashit-hingrajiya-303857154/" 
-    },
-    {
         featured_image: JunedImage,
         post_title: "Juned Theba",
-        designation: "Lead UI/UX developer", 
+        designation: "Co-Founder", 
         twitter_link: "https://twitter.com/juned_theba",
         linkedin_link: "https://www.linkedin.com/in/juned-theba-a71630127/" 
     },
     {
         featured_image: VatsalImage,
         post_title: "Vatsal Raichura",
-        designation: "Lead Cyber Security Consultant",  
+        designation: "Co-Founder",  
+        twitter_link: "https://twitter.com/vatsal07127148?s=09",
+        linkedin_link: "https://www.linkedin.com/in/vatsal-raychura-1317a5109/" 
+    },
+    {
+        featured_image: AshitImage,
+        post_title: "Ashit Hingrajiya",
+        designation: "Co-Founder",  
+        twitter_link: "https://twitter.com/attaboy_ashit",
+        linkedin_link: "https://linkedin.com" 
+    },
+    {
+        featured_image: MayurImage,
+        post_title: "Mayurdhwajsinh Gohil",
+        designation: "Co-Founder", 
+        twitter_link: "https://twitter.com/mayur_g7",
+        linkedin_link: "https://www.linkedin.com/in/ashit-hingrajiya-303857154/" 
     },
 ];
