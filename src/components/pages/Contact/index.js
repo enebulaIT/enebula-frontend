@@ -73,7 +73,7 @@ const Contact = () => {
 										<i class="fa fa-facebook-square"></i>
 									</a> 
 									<a href = "https://www.youtube.com/channel/UCYVTSNmqprMaK9_sxUzIiGA" target = "_blank">
-										<i class="fa fa-youtube"></i> 
+										<i class="fa fa-youtube-play"></i> 
 									</a>
 									<a href = "https://twitter.com/e_nebula" target = "_blank">
 										<i class="fa fa-twitter"></i> 

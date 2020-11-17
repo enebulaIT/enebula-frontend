@@ -32,13 +32,13 @@ export default [
         post_title: "Ashit Hingrajiya",
         designation: "Co-Founder",  
         twitter_link: "https://twitter.com/attaboy_ashit",
-        linkedin_link: "https://linkedin.com" 
+        linkedin_link: "https://www.linkedin.com/in/ashit-hingrajiya-303857154/" 
     },
     {
         featured_image: MayurImage,
         post_title: "Mayurdhwajsinh Gohil",
         designation: "Co-Founder", 
         twitter_link: "https://twitter.com/mayur_g7",
-        linkedin_link: "https://www.linkedin.com/in/ashit-hingrajiya-303857154/" 
+        linkedin_link: "https://www.linkedin.com/in/mayur-gohil-8b5b48105/" 
     },
 ];

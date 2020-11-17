@@ -20303,7 +20303,8 @@ screen and (max-height:300px) {
 .footer__widget-logo {
     display: inline-block;
     margin-bottom: 40px;
-    width: 250px;
+    width: 169px;
+    margin-top: -10px;
 
 }
 

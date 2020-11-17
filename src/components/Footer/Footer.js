@@ -6,15 +6,12 @@ const Footer = ({ className }) => {
         <footer className="footer">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-3">
                         <div className="footer__widget">
                             <img src={process.env.PUBLIC_URL + '/logonew-font.png'} className="footer__widget-logo" alt="Smooth" /> 
-                        </div>
-                         <div className="col-md-6">
-                            <p>© <a href="/">eNebula</a> | 2020. All Rights Reserved.</p>
                         </div> 
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-3">
                         <div className="footer__widget">
                             <h4 className="footer__widget-title">Quick Links</h4>
                             <ul className="footer__widget-linklist">
@@ -25,7 +22,7 @@ const Footer = ({ className }) => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-3">
                         <div className="footer__widget">
                             <h4 className="footer__widget-title">Services</h4>
                             <ul className="footer__widget-linklist">
@@ -37,7 +34,38 @@ const Footer = ({ className }) => {
                             </ul>
                         </div>
                     </div> 
+
+                    <div class="col-lg-3">
+                        <div class="footer__widget">
+                            <h4 class="footer__widget-title">Follow us</h4>
+                            <ul class="footer__widget-network">
+                                <li><a href="https://www.facebook.com/ENebula-108501717723475" target = "_blank" class="footer__widget-network-link"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/e_nebula" target = "_blank" class="footer__widget-network-link"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="footer__widget-network-link"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCYVTSNmqprMaK9_sxUzIiGA" target = "_blank" class="footer__widget-network-link"><i class="fa fa-youtube-play"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div> 
+
+                <div class="row">
+                    <div class="col">
+                        <div class="footer__subfooter">
+                            <div class="row">
+                                <div className="col-md-6">
+                                    <p>© <a href="/">eNebula</a> | 2020. All Rights Reserved.</p>
+                                </div> 
+                                {/* <div class="col-md-6 text-right">
+                                    <ul class="footer__subfooter-liststyle">
+                                        <li><a href="#">Terms Of Service</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Help</a></li>
+                                    </ul>
+                                </div> */}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
     );
