@@ -22555,7 +22555,8 @@ button:hover {
 @media (max-width:991px) {
     .testimoni blockquote {
         margin-bottom: 20px;
-        padding: 0 15px
+        padding: 0 15px;
+        padding-left: 25px;
     }
 
     .testimoni__avatar {
