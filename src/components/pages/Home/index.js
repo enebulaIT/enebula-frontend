@@ -180,7 +180,7 @@ const Home = () => {
 							<h2>Security & Audit</h2>
 							<p> Test it, Secure it. Yes before any attackers can destroy your digital dream venture, Let Us Audit it And Make It Secure for You. </p>
 							
-							<Link to="/services/designing"  className="btn btn-primary btn-rounded">Learn more </Link>
+							<Link to="/services/security-audit"  className="btn btn-primary btn-rounded">Learn more </Link>
 						</div>
 					</div>
 				</div>
@@ -195,13 +195,13 @@ const Home = () => {
 						<div  className="col-lg-4 align-self-center mb-40">
 							<h2>Designing </h2>
 							<p> ‘Design is intelligence made visible’. - Alina Wheeler. We are here to serve you the all facilitate designs you need from Branding to UI/UX and even Motion Graphics. </p>
+							<Link to="/services/designing"  className="btn btn-primary btn-rounded">Learn more </Link>
 							
-							<Link to="/services/security-audit"  className="btn btn-primary btn-rounded">Learn more </Link>
 						</div>
 					</div>
 				</div>
 			</section>
-			<div  className="section__divider section__divider-left"></div>
+			{/* <div  className="section__divider section__divider-left"></div>
 			<section  className="section pt-0 pb-60">
 				<div  className="container">
 					<div  className="row">
@@ -216,7 +216,7 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 			<section className="section section__gray-watter--bottom">
 				<div className="container">

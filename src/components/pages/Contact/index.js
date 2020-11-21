@@ -72,11 +72,14 @@ const Contact = () => {
 									<a target = "_blank" href = "https://www.facebook.com/ENebula-108501717723475">
 										<i class="fa fa-facebook-square"></i>
 									</a> 
-									<a href = "https://www.youtube.com/channel/UCYVTSNmqprMaK9_sxUzIiGA" target = "_blank">
-										<i class="fa fa-youtube-play"></i> 
-									</a>
 									<a href = "https://twitter.com/e_nebula" target = "_blank">
 										<i class="fa fa-twitter"></i> 
+									</a>
+									<a href = "https://www.linkedin.com/in/enebula-%E2%A0%80%E2%A0%80%E2%A0%80-%E2%A0%80-49530b1ba/" target = "_blank">
+										<i class="fa fa-linkedin"></i> 
+									</a>
+									<a href = "https://www.youtube.com/channel/UCYVTSNmqprMaK9_sxUzIiGA" target = "_blank">
+										<i class="fa fa-youtube-play"></i> 
 									</a>
 								</div>
 			               </div>

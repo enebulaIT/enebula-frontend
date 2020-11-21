@@ -90,9 +90,9 @@ const About = props => {
 							</div>
 						</div>
 					</div>
-					<div className="row">
+					{/* <div className="row">
 						<div className="col-md-12 text-center"><a href="#" className="btn btn-primary btn-rounded btn-stroke">View our portfolio </a></div>
-					</div>
+					</div>    */}
 				</div>
 			</section>
 
