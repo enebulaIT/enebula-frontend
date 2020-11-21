@@ -234,16 +234,20 @@ const Home = () => {
 				
 				<div className="divider"></div>
 				
-				<div className="row mt-100">
-					<div className="col-lg-6 offset-lg-3">
-						<h2 className="section__heading section__heading-center">Our Clients</h2>
+				<div className="container">
+					<div className="row mt-100">
+						<div className="col-lg-6 offset-lg-3">
+							<h2 className="section__heading section__heading-center">Our Clients</h2>
+						</div>
 					</div>
+
+
+					<div className="row">
+						<div className="col">
+							<OurClients />
+						</div>
+					</div> 
 				</div>
-				<div className="row">
-					<div className="col">
-						<OurClients />
-					</div>
-				</div> 
 			</section>  
 		</div>
 	);
