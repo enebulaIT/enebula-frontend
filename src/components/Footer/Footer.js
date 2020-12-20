@@ -40,7 +40,7 @@ const Footer = ({ className }) => {
                             <h4 class="footer__widget-title">Follow us</h4>
                             <ul class="footer__widget-network">
                                 <li><a href="https://www.facebook.com/ENebula-108501717723475" target = "_blank" class="footer__widget-network-link"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/e_nebula" target = "_blank" class="footer__widget-network-link"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://twitter.com/enebula_" target = "_blank" class="footer__widget-network-link"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="https://www.linkedin.com/in/enebula-%E2%A0%80%E2%A0%80%E2%A0%80-%E2%A0%80-49530b1ba/" target = "_blank" class="footer__widget-network-link"><i class="fa fa-linkedin"></i></a></li>
                                 <li><a href="https://www.youtube.com/channel/UCYVTSNmqprMaK9_sxUzIiGA" target = "_blank" class="footer__widget-network-link"><i class="fa fa-youtube-play"></i></a></li>
                             </ul>
