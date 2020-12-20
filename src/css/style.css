@@ -24766,6 +24766,10 @@ body.no-sroll {
     height: 325px;
 }
 
+span.team__position {
+    font-size: 11px;
+}
+
 .contact__aside--widget.social-icons a {
     text-decoration: none;
 }
@@ -24774,4 +24778,13 @@ body.no-sroll {
     font-size: 22px;
     padding: 10px;
     color: #2c2d2d;
+}
+
+ul.enebula-content {
+    font-size: 12px;
+    padding: 10px;
+}
+
+ul.enebula-content li b {
+    font-size: 15px;
 }

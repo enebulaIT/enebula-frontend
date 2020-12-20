@@ -17,7 +17,7 @@ const Footer = ({ className }) => {
                             <ul className="footer__widget-linklist">
                                 <li><NavLink to="/">Home</NavLink></li>
                                 <li><NavLink to="/about">About Us</NavLink></li>
-                                <li><NavLink to="/how-we-work">How We Work</NavLink></li>
+                                {/* <li><NavLink to="/how-we-work">How We Work</NavLink></li> */}
                                 <li><NavLink to="/contact">Contact Us</NavLink></li> 
                             </ul>
                         </div>
