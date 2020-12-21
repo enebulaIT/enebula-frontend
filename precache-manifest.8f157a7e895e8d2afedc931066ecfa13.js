@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9dbc261e1216fb3435c7690b95bc8ba0",
+    "revision": "999a8a65794d0e3b2663652d26668f6e",
     "url": "/index.html"
   },
   {
-    "revision": "6870c1f0a126e7b30323",
-    "url": "/static/css/main.f5e9a083.chunk.css"
+    "revision": "1cb08ea1d6279c916480",
+    "url": "/static/css/main.79786580.chunk.css"
   },
   {
-    "revision": "2b446d5f50ca71a8e2a3",
-    "url": "/static/js/2.a0b94790.chunk.js"
+    "revision": "0869ee6c9c5d2f613a21",
+    "url": "/static/js/2.b913411b.chunk.js"
   },
   {
     "revision": "d8fd627805a9208fba2a6acfc94121dd",
-    "url": "/static/js/2.a0b94790.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b913411b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6870c1f0a126e7b30323",
-    "url": "/static/js/main.ff7274d0.chunk.js"
+    "revision": "1cb08ea1d6279c916480",
+    "url": "/static/js/main.70021fa1.chunk.js"
   },
   {
     "revision": "2747b914e9a60db2276f",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/about-us-1.ba77afed.png"
   },
   {
-    "revision": "a461f9bf51f3960af1732831a39a1336",
-    "url": "/static/media/anirudha.a461f9bf.png"
+    "revision": "973093e68445a68077f48c34b1a4d152",
+    "url": "/static/media/anirudha.973093e6.png"
   },
   {
     "revision": "2b8f6f65343b1508b96ab34427b55138",
@@ -228,6 +228,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hard-disk.e2500afc.svg"
   },
   {
+    "revision": "40599fe2fef8a73d7798e3af37f38ac3",
+    "url": "/static/media/harsh.40599fe2.png"
+  },
+  {
     "revision": "96225f546978ef8f068bb8fcc057b1c9",
     "url": "/static/media/help.96225f54.svg"
   },
@@ -288,12 +292,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ixclibano.cd820c4f.svg"
   },
   {
-    "revision": "126b9496971f925ab2138e14418b4e41",
-    "url": "/static/media/jemish.126b9496.jpeg"
-  },
-  {
-    "revision": "6f511151d0d65f448cc42ea7c9fde4f4",
-    "url": "/static/media/juned.6f511151.jpg"
+    "revision": "113b5ce7790e057c274b1d7aac303143",
+    "url": "/static/media/juned.113b5ce7.png"
   },
   {
     "revision": "ea1405a20d521c4a90fd57da3c180e8a",
