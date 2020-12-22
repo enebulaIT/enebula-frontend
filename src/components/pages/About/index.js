@@ -113,7 +113,7 @@ const About = props => {
 				</div>
 			</section>
 
-			<section className="section section__gray">
+			{/* <section className="section section__gray">
 			    <div className="container">
 			        <div className="row">
 			            <div className="col-lg-6 offset-lg-3">
@@ -122,7 +122,7 @@ const About = props => {
 			        </div>
 					<OurTeam />
 			    </div>
-			</section>
+			</section> */}
 		</div>
 	);
 } 

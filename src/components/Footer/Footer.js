@@ -8,7 +8,7 @@ const Footer = ({ className }) => {
                 <div className="row">
                     <div className="col-lg-3">
                         <div className="footer__widget">
-                            <img src={process.env.PUBLIC_URL + '/logonew-font.png'} className="footer__widget-logo" alt="Smooth" /> 
+                            <img src={process.env.PUBLIC_URL + '/logonew-font.svg'} className="footer__widget-logo" alt="Smooth" /> 
                         </div> 
                     </div>
                     <div className="col-lg-3">

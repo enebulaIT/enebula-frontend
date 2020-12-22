@@ -32,7 +32,7 @@ const Header = (props) => {
 		        <div className="nav-container">
 		            <div className="nav-header right">
 		                <Link to="/" className="brand">
-		                    <img src = {process.env.PUBLIC_URL + '/logonew-font.png'} className="logo" alt="Smooth" />
+		                    <img src = {process.env.PUBLIC_URL + '/logonew-font.svg'} className="logo" alt="Smooth" />
 		                </Link>
 		                <button 
 		                	className={`toggle-bar core-nav-toggle	`}
@@ -43,7 +43,7 @@ const Header = (props) => {
 		            <div className="wrap-core-nav-list right"> 
 		                <div className="header__mobile js-header-menu">
 							<Link to="/" className="brand">
-								<img src = {process.env.PUBLIC_URL + '/logonew-font.png'} className="logo" alt="Smooth" />
+								<img src = {process.env.PUBLIC_URL + '/logonew-font.svg'} className="logo" alt="Smooth" />
 							</Link>
 		                    <button
 		                    	onClick = {() => {props.setSideMenuVisibility(!props.sideMenuVisibility)}} 

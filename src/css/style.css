@@ -19107,7 +19107,7 @@ screen and (max-height:300px) {
 }
 
 .header__sticky .nav-header .brand {
-    margin-top: 10px !important
+    margin-top: 2px !important
 }
 
 @media (max-width:991px) {
