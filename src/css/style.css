@@ -19032,9 +19032,9 @@ screen and (max-height:300px) {
     padding: 25px 0 !important
 }
 
-.header:hover .nav-header .brand {
+/* .header:hover .nav-header .brand {
     margin-top: 10px !important
-}
+} */
 
 @media (max-width:991px) {
     .header:hover .attributes li {
