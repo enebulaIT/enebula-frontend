@@ -19366,7 +19366,7 @@ screen and (max-height:300px) {
     .header__inner .core-nav .wrap-core-nav-list.right .menu,
     .header__sticky .core-nav .wrap-core-nav-list.right .menu {
         padding: 0 15px !important;
-        margin-top: 25px;
+        margin-top: 45px;
     }
 
     .header .core-nav .wrap-core-nav-list.right .menu li,
