@@ -53,7 +53,7 @@ const Footer = ({ className }) => {
                         <div class="footer__subfooter">
                             <div class="row">
                                 <div className="col-md-6">
-                                    <p>© <a href="/">eNebula</a> | 2020. All Rights Reserved.</p>
+                                    <p>© <a href="/">eNebula</a> | 2020-2021. All Rights Reserved.</p>
                                 </div> 
                                 {/* <div class="col-md-6 text-right">
                                     <ul class="footer__subfooter-liststyle">
