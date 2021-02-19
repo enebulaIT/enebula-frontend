@@ -31,6 +31,7 @@ const Footer = ({ className }) => {
                                 <li><NavLink to="/services/game-development">Game Solutions & Services</NavLink></li>
                                 <li><NavLink to="/services/designing">Designing</NavLink></li>
                                 <li><NavLink to="/services/security-audit">Security & Audit</NavLink></li>
+                                <li><NavLink to="/services/digital-marketing">Digital Marketing</NavLink></li>
                             </ul>
                         </div>
                     </div> 

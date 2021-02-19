@@ -213,7 +213,7 @@ const Home = () => {
 						<div  className="col-lg-4 align-self-center mb-40">
 							<h2>Digital Marketing</h2>
 							<p> Yes, it’s like we’re sculpting the two parallel orbits of Content & Digital Marketing thus it could stretch to the Marketing Goal that every brand originally aims for. </p>
-							<Link to="/"  className="btn btn-primary btn-rounded">Learn more </Link>
+							<Link to="/services/digital-marketing"  className="btn btn-primary btn-rounded">Learn more </Link>
 						</div>
 					</div>
 				</div>
