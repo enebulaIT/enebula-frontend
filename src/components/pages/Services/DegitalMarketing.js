@@ -22,7 +22,7 @@ const DegitalMarketing = () => {
 						<div className="row">
 							<div className="col-lg-6">
 								<div className="hero__standout--headline testimoni">
-									<h2 className="section__heading">Web Development</h2>
+									<h2 className="section__heading">Digital Marketing</h2>
 									<blockquote>Content is fire; social media is gasoline.</blockquote> 
 									<i>― Jay Baer</i>
 								</div>
