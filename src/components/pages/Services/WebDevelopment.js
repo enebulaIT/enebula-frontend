@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'; 
 import { Link } from 'react-router-dom';
-import heroImage from '../../../images/serviceBanners/web.png';
+import heroImage from '../../../images/serviceBanners/web.png'; 
 
 const WebDevelopment = () => { 
 

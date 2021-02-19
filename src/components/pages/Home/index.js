@@ -10,7 +10,8 @@ import appImage from '../../../images/App.svg';
 import gameImage from '../../../images/GAME.svg';
 import cyberImage from '../../../images/security.svg'; 
 import designImage from '../../../images/dessign.svg';
-import consultImage from '../../../images/consultantcy.svg';
+// import consultImage from '../../../images/consultantcy.svg';
+import digitalMarketingImage from '../../../images/dm.svg';
 
 const Home = () => {
 	const [pageContent, setPageContent] = useState('');
@@ -201,22 +202,22 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			{/* <div  className="section__divider section__divider-left"></div>
+			<div  className="section__divider section__divider-left"></div>
+			
 			<section  className="section pt-0 pb-60">
 				<div  className="container">
 					<div  className="row">
 						<div  className="col-lg-8 order-lg-4 mb-40 text-lg-right text-sm-center"> 
-							<img src={consultImage}  className="img-fluid" alt="Business Man with Laptop" /> 
+							<img src={digitalMarketingImage}  className="img-fluid" alt="Business Man with Laptop" /> 
 						</div>
 						<div  className="col-lg-4 align-self-center mb-40">
-							<h2>Consultant Services</h2>
-							<p> Consult us for any of your trouble because, ‘A consultant is someone who saves his client almost enough to pay his fee.’ – Arnold H. Glasow </p>
-							
+							<h2>Digital Marketing</h2>
+							<p> Yes, it’s like we’re sculpting the two parallel orbits of Content & Digital Marketing thus it could stretch to the Marketing Goal that every brand originally aims for. </p>
 							<Link to="/"  className="btn btn-primary btn-rounded">Learn more </Link>
 						</div>
 					</div>
 				</div>
-			</section> */}
+			</section>
 
 			<section className="section section__gray-watter--bottom">
 				<div className="container">

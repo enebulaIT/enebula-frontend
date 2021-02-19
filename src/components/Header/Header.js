@@ -111,6 +111,16 @@ const Header = (props) => {
 		                                            </div>  
 		                                        </div>
 		                                    </div>
+											<div className="col-lg-4 col-megamenu">
+		                                        <div className="megamenu__widget"> 
+	                                             	<div className="megamenu__widget-group">
+		                                                <Link to="/services/digital-marketing" className="megamenu__widget-group-link">
+		                                                   Digital Marketing
+		                                                   <span>SEO, SEM, SMM, Email marketing, Inbound marketing </span>
+		                                                </Link>
+		                                            </div>  
+		                                        </div>
+		                                    </div>
 		                                </div>
 		                            </div>
 		                        </div>
