@@ -42,7 +42,7 @@ const App = () => {
 						<Route path = "/services/mobile-development" exact component = {MobileDevelopment}/>
 						<Route path = "/services/game-development" exact component = {GameDevelopment}/>
 						<Route path = "/services/designing" exact component = {Designing}/>
-						{/* <Route path = "/services/security-audit" exact component = {SecurityAudit}/> */}
+						<Route path = "/services/security-audit" exact component = {SecurityAudit}/>
 						<Route path = "/services/digital-marketing" exact component = {DegitalMarketing}/>
 					</Switch> 
 				<Footer />
