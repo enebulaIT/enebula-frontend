@@ -24788,3 +24788,13 @@ ul.enebula-content {
 ul.enebula-content li b {
     font-size: 15px;
 }
+
+.btn-no-style {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
