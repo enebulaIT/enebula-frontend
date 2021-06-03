@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65bda0be623c8278c22c50754a277e58",
+    "revision": "ab9a4ddd6fad6e9c9536af2cd352d359",
     "url": "/index.html"
   },
   {
-    "revision": "91e540d91f7f146f7789",
-    "url": "/static/css/main.3d5cbaa2.chunk.css"
+    "revision": "dc62e7a7e850be70e5e9",
+    "url": "/static/css/2.d4e7eff5.chunk.css"
   },
   {
-    "revision": "0f2e7a0a3556d71115ce",
-    "url": "/static/js/2.848ead72.chunk.js"
+    "revision": "115749cc003ebe0259a7",
+    "url": "/static/css/main.fbf041e2.chunk.css"
+  },
+  {
+    "revision": "dc62e7a7e850be70e5e9",
+    "url": "/static/js/2.03c7b7da.chunk.js"
   },
   {
     "revision": "d8fd627805a9208fba2a6acfc94121dd",
-    "url": "/static/js/2.848ead72.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.03c7b7da.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "91e540d91f7f146f7789",
-    "url": "/static/js/main.5e8ca1e0.chunk.js"
+    "revision": "115749cc003ebe0259a7",
+    "url": "/static/js/main.a6e69480.chunk.js"
   },
   {
     "revision": "2747b914e9a60db2276f",
@@ -34,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "02029fe7bfe6b94156bf2d2ae3957b14",
     "url": "/static/media/GAME.02029fe7.svg"
+  },
+  {
+    "revision": "21d232c5d6fc55550e804908b01e2afc",
+    "url": "/static/media/Smart-Contract-Audit-Report.21d232c5.pdf"
   },
   {
     "revision": "3a1af49f4b7647091fdf0d59b4032dbb",
@@ -154,6 +162,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6cdcf2fc92717e62e525631301060c26",
     "url": "/static/media/dm.6cdcf2fc.png"
+  },
+  {
+    "revision": "fd0c26a7304dda47ef3956163d0ca98e",
+    "url": "/static/media/download-icon.fd0c26a7.svg"
   },
   {
     "revision": "031375acd15068762e82c8926a0a7aad",

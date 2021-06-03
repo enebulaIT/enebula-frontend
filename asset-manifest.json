@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d5cbaa2.chunk.css",
-    "main.js": "/static/js/main.5e8ca1e0.chunk.js",
-    "main.js.map": "/static/js/main.5e8ca1e0.chunk.js.map",
+    "main.css": "/static/css/main.fbf041e2.chunk.css",
+    "main.js": "/static/js/main.a6e69480.chunk.js",
+    "main.js.map": "/static/js/main.a6e69480.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8a21426.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8a21426.js.map",
-    "static/js/2.848ead72.chunk.js": "/static/js/2.848ead72.chunk.js",
-    "static/js/2.848ead72.chunk.js.map": "/static/js/2.848ead72.chunk.js.map",
+    "static/css/2.d4e7eff5.chunk.css": "/static/css/2.d4e7eff5.chunk.css",
+    "static/js/2.03c7b7da.chunk.js": "/static/js/2.03c7b7da.chunk.js",
+    "static/js/2.03c7b7da.chunk.js.map": "/static/js/2.03c7b7da.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bcf2224d1e891125379d2b5002c4cebe.js": "/precache-manifest.bcf2224d1e891125379d2b5002c4cebe.js",
+    "precache-manifest.52a99d48979f3d6c00be115d66148daf.js": "/precache-manifest.52a99d48979f3d6c00be115d66148daf.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3d5cbaa2.chunk.css.map": "/static/css/main.3d5cbaa2.chunk.css.map",
-    "static/js/2.848ead72.chunk.js.LICENSE.txt": "/static/js/2.848ead72.chunk.js.LICENSE.txt",
+    "static/css/2.d4e7eff5.chunk.css.map": "/static/css/2.d4e7eff5.chunk.css.map",
+    "static/css/main.fbf041e2.chunk.css.map": "/static/css/main.fbf041e2.chunk.css.map",
+    "static/js/2.03c7b7da.chunk.js.LICENSE.txt": "/static/js/2.03c7b7da.chunk.js.LICENSE.txt",
     "static/media/3D.png": "/static/media/3D.afbfb74e.png",
     "static/media/App.svg": "/static/media/App.a905f8d9.svg",
     "static/media/GAME.svg": "/static/media/GAME.02029fe7.svg",
+    "static/media/Smart-Contract-Audit-Report.pdf": "/static/media/Smart-Contract-Audit-Report.21d232c5.pdf",
     "static/media/The-Wolf-Pack.svg": "/static/media/The-Wolf-Pack.86d8cb7e.svg",
     "static/media/Trident-gym.svg": "/static/media/Trident-gym.cb71146c.svg",
     "static/media/about-us-1.png": "/static/media/about-us-1.ba77afed.png",
@@ -27,6 +30,7 @@
     "static/media/dessign.svg": "/static/media/dessign.f1d6bb85.svg",
     "static/media/dm.svg": "/static/media/dm.3460a45b.svg",
     "static/media/dm.png": "/static/media/dm.6cdcf2fc.png",
+    "static/media/download-icon.svg": "/static/media/download-icon.fd0c26a7.svg",
     "static/media/enixmo.svg": "/static/media/enixmo.e899a355.svg",
     "static/media/ev1.jpeg": "/static/media/ev1.e0a4ba56.jpeg",
     "static/media/ev2.jpeg": "/static/media/ev2.a5a864e9.jpeg",
@@ -51,8 +55,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c8a21426.js",
-    "static/js/2.848ead72.chunk.js",
-    "static/css/main.3d5cbaa2.chunk.css",
-    "static/js/main.5e8ca1e0.chunk.js"
+    "static/css/2.d4e7eff5.chunk.css",
+    "static/js/2.03c7b7da.chunk.js",
+    "static/css/main.fbf041e2.chunk.css",
+    "static/js/main.a6e69480.chunk.js"
   ]
 }
