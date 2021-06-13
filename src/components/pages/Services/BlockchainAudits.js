@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import heroImage from '../../../images/about-us-1.png';
-import { Link } from 'react-router-dom';
-import { PageHeader, Table } from 'antd';
+import { Table } from 'antd';
 import downloadButton from '../../../images/download-icon.svg';
-import AutditFile1 from '../../../auditFiles/Smart-Contract-Audit-Report.pdf';
+import dataSource from '../../../data/blockchainAudits/blockChainAudits';
 
 const BlockchainAudits = (props) => {
   useEffect(() => {
@@ -12,19 +10,6 @@ const BlockchainAudits = (props) => {
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }, 100);
   }, []);
-
-  const dataSource = [
-    {
-      key: '1',
-      name: 'Only Up',
-      coverage: 'Audit',
-      type: 'Token',
-      language: 'Solidity',
-      platform: 'BSCScan',
-      stages: 'June 1, 2021 (Audited)',
-      filePath: AutditFile1,
-    },
-  ];
 
   const columns = [
     {
@@ -48,9 +33,9 @@ const BlockchainAudits = (props) => {
       key: 'language',
     },
     {
-      title: 'Platform',
-      dataIndex: 'platform',
-      key: 'platform',
+      title: 'Contract Type',
+      dataIndex: 'contractType',
+      key: 'contractType',
     },
     {
       title: 'Stages',
