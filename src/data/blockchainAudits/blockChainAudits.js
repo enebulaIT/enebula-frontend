@@ -15,7 +15,7 @@ const dataSource = [
     coverage: 'Code Review',
     type: 'Source Code',
     language: 'Go',
-    contractType: '<Nill>',
+    contractType: '-',
     stages: 'May 5, 2021 (Audited)',
     filePath: Etho,
   },
@@ -41,7 +41,7 @@ const dataSource = [
   },
   {
     key: '4',
-    name: 'Etho Protocol',
+    name: 'Coinopolis',
     coverage: 'Audit',
     type: 'Token',
     language: 'Solidity',

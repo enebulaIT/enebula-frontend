@@ -43,7 +43,7 @@ const BlockchainAudits = (props) => {
       key: 'stages',
     },
     {
-      title: ' ',
+      title: 'Download',
       dataIndex: 'filePath',
       key: 'filePath',
       render: (text, record) => (
@@ -54,6 +54,7 @@ const BlockchainAudits = (props) => {
           }}
           className="btn-no-style"
         >
+          {/* <span>Download </span> */}
           <img src={downloadButton} />
         </button>
       ),
