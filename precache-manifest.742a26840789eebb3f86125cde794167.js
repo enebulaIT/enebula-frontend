@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe806a54bcf9a648a1c499fa5d4fa6f3",
+    "revision": "cfe357489eb0116b32ce90bfa9cd836e",
     "url": "/index.html"
   },
   {
-    "revision": "dc62e7a7e850be70e5e9",
+    "revision": "c913a003b261a44130c0",
     "url": "/static/css/2.d4e7eff5.chunk.css"
   },
   {
-    "revision": "5dbaa60ae66acc53d78f",
+    "revision": "878daefae6e950ebbf3b",
     "url": "/static/css/main.fbf041e2.chunk.css"
   },
   {
-    "revision": "dc62e7a7e850be70e5e9",
-    "url": "/static/js/2.03c7b7da.chunk.js"
+    "revision": "c913a003b261a44130c0",
+    "url": "/static/js/2.3fabfb6c.chunk.js"
   },
   {
     "revision": "d8fd627805a9208fba2a6acfc94121dd",
-    "url": "/static/js/2.03c7b7da.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3fabfb6c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5dbaa60ae66acc53d78f",
-    "url": "/static/js/main.5d71a60e.chunk.js"
+    "revision": "878daefae6e950ebbf3b",
+    "url": "/static/js/main.39cab4f2.chunk.js"
   },
   {
     "revision": "2747b914e9a60db2276f",
@@ -36,12 +36,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/App.a905f8d9.svg"
   },
   {
+    "revision": "e75866e3d909f26c34635370942884fc",
+    "url": "/static/media/Coinopolis-final.e75866e3.pdf"
+  },
+  {
+    "revision": "27a1c7279b4eeb97287aef356e6b87d3",
+    "url": "/static/media/Coinopolis.27a1c727.pdf"
+  },
+  {
+    "revision": "81c8e4441e0362e358721ba9f048f1ab",
+    "url": "/static/media/Etho-final.81c8e444.pdf"
+  },
+  {
+    "revision": "28c59ef9172b9d5f8b361e3e74b93fd6",
+    "url": "/static/media/Final-Code-Review-Report.28c59ef9.pdf"
+  },
+  {
+    "revision": "c4a82ca11652bc08a94c6584e51da482",
+    "url": "/static/media/Fort.c4a82ca1.pdf"
+  },
+  {
     "revision": "02029fe7bfe6b94156bf2d2ae3957b14",
     "url": "/static/media/GAME.02029fe7.svg"
   },
   {
+    "revision": "dd4c28245c7dbc554c4c8f4ec15a57f8",
+    "url": "/static/media/HoldCoin.dd4c2824.pdf"
+  },
+  {
+    "revision": "06d4787818f4b6d7b7c25e624c577130",
+    "url": "/static/media/Holders2.06d47878.pdf"
+  },
+  {
     "revision": "21d232c5d6fc55550e804908b01e2afc",
-    "url": "/static/media/Smart-Contract-Audit-Report.21d232c5.pdf"
+    "url": "/static/media/OnlyUp.21d232c5.pdf"
   },
   {
     "revision": "3a1af49f4b7647091fdf0d59b4032dbb",
