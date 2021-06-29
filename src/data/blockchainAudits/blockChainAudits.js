@@ -7,6 +7,7 @@ import Holders from './auditFiles/OnlyUp.pdf';
 import Fort from './auditFiles/Fort.pdf';
 import Holders2 from './auditFiles/Holders2.pdf';
 import HoldCoin from './auditFiles/HoldCoin.pdf';
+import Finify_Protocol from './auditFiles/Finify_Protocol.pdf';
 
 const dataSource = [
   {
@@ -98,6 +99,16 @@ const dataSource = [
     contractType: 'BEP20',
     stages: 'June 9, 2021 (Audited)',
     filePath: Holders2,
+  },
+  {
+    key: '9',
+    name: 'Finify Protocol',
+    coverage: 'Audit',
+    type: 'Token',
+    language: 'Solidity',
+    contractType: 'BEP20',
+    stages: 'June 29, 2021 (Audited)',
+    filePath: Finify_Protocol,
   },
 ];
 
