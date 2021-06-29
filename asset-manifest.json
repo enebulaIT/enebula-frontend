@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.fbf041e2.chunk.css",
-    "main.js": "/static/js/main.beb9739a.chunk.js",
-    "main.js.map": "/static/js/main.beb9739a.chunk.js.map",
+    "main.js": "/static/js/main.73e6b14a.chunk.js",
+    "main.js.map": "/static/js/main.73e6b14a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8a21426.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8a21426.js.map",
     "static/css/2.d4e7eff5.chunk.css": "/static/css/2.d4e7eff5.chunk.css",
-    "static/js/2.3fabfb6c.chunk.js": "/static/js/2.3fabfb6c.chunk.js",
-    "static/js/2.3fabfb6c.chunk.js.map": "/static/js/2.3fabfb6c.chunk.js.map",
+    "static/js/2.0011b0aa.chunk.js": "/static/js/2.0011b0aa.chunk.js",
+    "static/js/2.0011b0aa.chunk.js.map": "/static/js/2.0011b0aa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.72e4a6616562f6f1c8fb86f7c2298bf3.js": "/precache-manifest.72e4a6616562f6f1c8fb86f7c2298bf3.js",
+    "precache-manifest.b93abfa39f46f121739c6d08814dc2db.js": "/precache-manifest.b93abfa39f46f121739c6d08814dc2db.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d4e7eff5.chunk.css.map": "/static/css/2.d4e7eff5.chunk.css.map",
     "static/css/main.fbf041e2.chunk.css.map": "/static/css/main.fbf041e2.chunk.css.map",
-    "static/js/2.3fabfb6c.chunk.js.LICENSE.txt": "/static/js/2.3fabfb6c.chunk.js.LICENSE.txt",
+    "static/js/2.0011b0aa.chunk.js.LICENSE.txt": "/static/js/2.0011b0aa.chunk.js.LICENSE.txt",
     "static/media/3D.png": "/static/media/3D.afbfb74e.png",
     "static/media/App.svg": "/static/media/App.a905f8d9.svg",
     "static/media/Coinopolis-final.pdf": "/static/media/Coinopolis-final.e75866e3.pdf",
     "static/media/Coinopolis.pdf": "/static/media/Coinopolis.27a1c727.pdf",
     "static/media/Etho-final.pdf": "/static/media/Etho-final.81c8e444.pdf",
     "static/media/Final-Code-Review-Report.pdf": "/static/media/Final-Code-Review-Report.28c59ef9.pdf",
+    "static/media/Finify_Protocol.pdf": "/static/media/Finify_Protocol.7c2d88a5.pdf",
     "static/media/Fort.pdf": "/static/media/Fort.c4a82ca1.pdf",
     "static/media/GAME.svg": "/static/media/GAME.02029fe7.svg",
     "static/media/HoldCoin.pdf": "/static/media/HoldCoin.dd4c2824.pdf",
@@ -63,8 +64,8 @@
   "entrypoints": [
     "static/js/runtime-main.c8a21426.js",
     "static/css/2.d4e7eff5.chunk.css",
-    "static/js/2.3fabfb6c.chunk.js",
+    "static/js/2.0011b0aa.chunk.js",
     "static/css/main.fbf041e2.chunk.css",
-    "static/js/main.beb9739a.chunk.js"
+    "static/js/main.73e6b14a.chunk.js"
   ]
 }
