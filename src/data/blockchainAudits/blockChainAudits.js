@@ -8,6 +8,8 @@ import Fort from './auditFiles/Fort.pdf';
 import Holders2 from './auditFiles/Holders2.pdf';
 import HoldCoin from './auditFiles/HoldCoin.pdf';
 import Finify_Protocol from './auditFiles/Finify_Protocol.pdf';
+import Phoenix_Chain from './auditFiles/Phoenix_Chain.pdf';
+import OneSeed from './auditFiles/OneSeed.pdf';
 
 const dataSource = [
   {
@@ -109,6 +111,26 @@ const dataSource = [
     contractType: 'BEP20',
     stages: 'June 29, 2021 (Audited)',
     filePath: Finify_Protocol,
+  },
+  {
+    key: '10',
+    name: 'Phoneix Chain',
+    coverage: 'Audit',
+    type: 'Token',
+    language: 'Solidity',
+    contractType: 'BEP20',
+    stages: 'July 2, 2021 (Audited)',
+    filePath: Phoenix_Chain,
+  },
+  {
+    key: '11',
+    name: 'OneSeed',
+    coverage: 'Audit',
+    type: 'Token',
+    language: 'Solidity',
+    contractType: 'ERC20',
+    stages: 'June 30, 2021 (Audited)',
+    filePath: OneSeed,
   },
 ];
 
