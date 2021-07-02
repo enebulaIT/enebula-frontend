@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.fbf041e2.chunk.css",
-    "main.js": "/static/js/main.73e6b14a.chunk.js",
-    "main.js.map": "/static/js/main.73e6b14a.chunk.js.map",
+    "main.js": "/static/js/main.709e839a.chunk.js",
+    "main.js.map": "/static/js/main.709e839a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8a21426.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8a21426.js.map",
     "static/css/2.d4e7eff5.chunk.css": "/static/css/2.d4e7eff5.chunk.css",
-    "static/js/2.0011b0aa.chunk.js": "/static/js/2.0011b0aa.chunk.js",
-    "static/js/2.0011b0aa.chunk.js.map": "/static/js/2.0011b0aa.chunk.js.map",
+    "static/js/2.799cbc12.chunk.js": "/static/js/2.799cbc12.chunk.js",
+    "static/js/2.799cbc12.chunk.js.map": "/static/js/2.799cbc12.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b93abfa39f46f121739c6d08814dc2db.js": "/precache-manifest.b93abfa39f46f121739c6d08814dc2db.js",
+    "precache-manifest.a92b8c49f0335ae97602a8d9be94f496.js": "/precache-manifest.a92b8c49f0335ae97602a8d9be94f496.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d4e7eff5.chunk.css.map": "/static/css/2.d4e7eff5.chunk.css.map",
     "static/css/main.fbf041e2.chunk.css.map": "/static/css/main.fbf041e2.chunk.css.map",
-    "static/js/2.0011b0aa.chunk.js.LICENSE.txt": "/static/js/2.0011b0aa.chunk.js.LICENSE.txt",
+    "static/js/2.799cbc12.chunk.js.LICENSE.txt": "/static/js/2.799cbc12.chunk.js.LICENSE.txt",
     "static/media/3D.png": "/static/media/3D.afbfb74e.png",
     "static/media/App.svg": "/static/media/App.a905f8d9.svg",
     "static/media/Coinopolis-final.pdf": "/static/media/Coinopolis-final.e75866e3.pdf",
@@ -25,7 +25,9 @@
     "static/media/GAME.svg": "/static/media/GAME.02029fe7.svg",
     "static/media/HoldCoin.pdf": "/static/media/HoldCoin.dd4c2824.pdf",
     "static/media/Holders2.pdf": "/static/media/Holders2.06d47878.pdf",
+    "static/media/OneSeed.pdf": "/static/media/OneSeed.70830cb7.pdf",
     "static/media/OnlyUp.pdf": "/static/media/OnlyUp.21d232c5.pdf",
+    "static/media/Phoenix_Chain.pdf": "/static/media/Phoenix_Chain.a3a5ff02.pdf",
     "static/media/The-Wolf-Pack.svg": "/static/media/The-Wolf-Pack.86d8cb7e.svg",
     "static/media/Trident-gym.svg": "/static/media/Trident-gym.cb71146c.svg",
     "static/media/about-us-1.png": "/static/media/about-us-1.ba77afed.png",
@@ -64,8 +66,8 @@
   "entrypoints": [
     "static/js/runtime-main.c8a21426.js",
     "static/css/2.d4e7eff5.chunk.css",
-    "static/js/2.0011b0aa.chunk.js",
+    "static/js/2.799cbc12.chunk.js",
     "static/css/main.fbf041e2.chunk.css",
-    "static/js/main.73e6b14a.chunk.js"
+    "static/js/main.709e839a.chunk.js"
   ]
 }
