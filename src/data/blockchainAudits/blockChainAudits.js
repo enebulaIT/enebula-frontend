@@ -10,6 +10,8 @@ import HoldCoin from './auditFiles/HoldCoin.pdf';
 import Finify_Protocol from './auditFiles/Finify_Protocol.pdf';
 import Phoenix_Chain from './auditFiles/Phoenix_Chain.pdf';
 import OneSeed from './auditFiles/OneSeed.pdf';
+import EGGS from './auditFiles/EGGS.pdf';
+import BSL from './auditFiles/BSL.pdf';
 
 const dataSource = [
   {
@@ -131,6 +133,26 @@ const dataSource = [
     contractType: 'ERC20',
     stages: 'June 30, 2021 (Audited)',
     filePath: OneSeed,
+  },
+  {
+    key: '12',
+    name: 'EGGS',
+    coverage: 'Audit',
+    type: 'Token',
+    language: 'Solidity',
+    contractType: 'BEP20',
+    stages: 'July 4, 2021 (Audited)',
+    filePath: EGGS,
+  },
+  {
+    key: '16',
+    name: 'BeSelfless',
+    coverage: 'Audit',
+    type: 'Token',
+    language: 'Solidity',
+    contractType: 'BEP20',
+    stages: 'July 4, 2021 (Audited)',
+    filePath: BSL,
   },
 ];
 
