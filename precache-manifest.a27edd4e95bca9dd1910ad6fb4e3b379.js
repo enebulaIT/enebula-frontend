@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6ee524a2935cb115bd4028ba2f7a783",
+    "revision": "d6b50b7ad95b6f6fa52ff14c81cff5b6",
     "url": "/index.html"
   },
   {
-    "revision": "d7c54036129d4c89457b",
+    "revision": "50977d1a9eeb776a5752",
     "url": "/static/css/2.d4e7eff5.chunk.css"
   },
   {
-    "revision": "186f084e345b194ab06d",
+    "revision": "a4d579a19d465ceeccf2",
     "url": "/static/css/main.fbf041e2.chunk.css"
   },
   {
-    "revision": "d7c54036129d4c89457b",
-    "url": "/static/js/2.799cbc12.chunk.js"
+    "revision": "50977d1a9eeb776a5752",
+    "url": "/static/js/2.5ba45bac.chunk.js"
   },
   {
     "revision": "d8fd627805a9208fba2a6acfc94121dd",
-    "url": "/static/js/2.799cbc12.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5ba45bac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "186f084e345b194ab06d",
-    "url": "/static/js/main.709e839a.chunk.js"
+    "revision": "a4d579a19d465ceeccf2",
+    "url": "/static/js/main.3e415055.chunk.js"
   },
   {
     "revision": "2747b914e9a60db2276f",
@@ -36,12 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/App.a905f8d9.svg"
   },
   {
+    "revision": "c81d032a46479bce7490dccc1e495c9c",
+    "url": "/static/media/BSL.c81d032a.pdf"
+  },
+  {
     "revision": "e75866e3d909f26c34635370942884fc",
     "url": "/static/media/Coinopolis-final.e75866e3.pdf"
   },
   {
     "revision": "27a1c7279b4eeb97287aef356e6b87d3",
     "url": "/static/media/Coinopolis.27a1c727.pdf"
+  },
+  {
+    "revision": "e4afd90f2b97bbad7d331b3d5fc2a810",
+    "url": "/static/media/EGGS.e4afd90f.pdf"
   },
   {
     "revision": "81c8e4441e0362e358721ba9f048f1ab",
