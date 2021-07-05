@@ -12,6 +12,7 @@ import Phoenix_Chain from './auditFiles/Phoenix_Chain.pdf';
 import OneSeed from './auditFiles/OneSeed.pdf';
 import EGGS from './auditFiles/EGGS.pdf';
 import BSL from './auditFiles/BSL.pdf';
+import BMONEY from './auditFiles/BMONEY.pdf';
 
 const dataSource = [
   {
@@ -116,7 +117,7 @@ const dataSource = [
   },
   {
     key: '10',
-    name: 'Phoneix Chain',
+    name: 'Phoenix Chain',
     coverage: 'Audit',
     type: 'Token',
     language: 'Solidity',
@@ -153,6 +154,16 @@ const dataSource = [
     contractType: 'BEP20',
     stages: 'July 4, 2021 (Audited)',
     filePath: BSL,
+  },
+  {
+    key: '17',
+    name: 'B-MONEY',
+    coverage: 'Audit',
+    type: 'Token',
+    language: 'Solidity',
+    contractType: 'Abstract',
+    stages: 'June 25, 2021 (Audited)',
+    filePath: BMONEY,
   },
 ];
 
