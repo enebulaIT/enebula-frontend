@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.fbf041e2.chunk.css",
-    "main.js": "/static/js/main.d910b8aa.chunk.js",
-    "main.js.map": "/static/js/main.d910b8aa.chunk.js.map",
+    "main.js": "/static/js/main.76a23a9b.chunk.js",
+    "main.js.map": "/static/js/main.76a23a9b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8a21426.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8a21426.js.map",
     "static/css/2.d4e7eff5.chunk.css": "/static/css/2.d4e7eff5.chunk.css",
-    "static/js/2.5cee2dd0.chunk.js": "/static/js/2.5cee2dd0.chunk.js",
-    "static/js/2.5cee2dd0.chunk.js.map": "/static/js/2.5cee2dd0.chunk.js.map",
+    "static/js/2.8d4e8c41.chunk.js": "/static/js/2.8d4e8c41.chunk.js",
+    "static/js/2.8d4e8c41.chunk.js.map": "/static/js/2.8d4e8c41.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ffcaeefa7e37e6f4330dcd79abb73739.js": "/precache-manifest.ffcaeefa7e37e6f4330dcd79abb73739.js",
+    "precache-manifest.a2a3efaf0ee3b5518d30034091814c5a.js": "/precache-manifest.a2a3efaf0ee3b5518d30034091814c5a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d4e7eff5.chunk.css.map": "/static/css/2.d4e7eff5.chunk.css.map",
     "static/css/main.fbf041e2.chunk.css.map": "/static/css/main.fbf041e2.chunk.css.map",
-    "static/js/2.5cee2dd0.chunk.js.LICENSE.txt": "/static/js/2.5cee2dd0.chunk.js.LICENSE.txt",
+    "static/js/2.8d4e8c41.chunk.js.LICENSE.txt": "/static/js/2.8d4e8c41.chunk.js.LICENSE.txt",
     "static/media/3D.png": "/static/media/3D.afbfb74e.png",
     "static/media/App.svg": "/static/media/App.a905f8d9.svg",
-    "static/media/BMONEY.pdf": "/static/media/BMONEY.2581db59.pdf",
+    "static/media/BMoney.pdf": "/static/media/BMoney.48f07ba4.pdf",
     "static/media/BSL.pdf": "/static/media/BSL.c81d032a.pdf",
     "static/media/Coinopolis-final.pdf": "/static/media/Coinopolis-final.e75866e3.pdf",
     "static/media/Coinopolis.pdf": "/static/media/Coinopolis.27a1c727.pdf",
@@ -33,6 +33,7 @@
     "static/media/Phoenix_Chain.pdf": "/static/media/Phoenix_Chain.a3a5ff02.pdf",
     "static/media/The-Wolf-Pack.svg": "/static/media/The-Wolf-Pack.86d8cb7e.svg",
     "static/media/Trident-gym.svg": "/static/media/Trident-gym.cb71146c.svg",
+    "static/media/Tron2Get.pdf": "/static/media/Tron2Get.e79bed8b.pdf",
     "static/media/about-us-1.png": "/static/media/about-us-1.ba77afed.png",
     "static/media/anirudha.png": "/static/media/anirudha.973093e6.png",
     "static/media/app.png": "/static/media/app.2b8f6f65.png",
@@ -69,8 +70,8 @@
   "entrypoints": [
     "static/js/runtime-main.c8a21426.js",
     "static/css/2.d4e7eff5.chunk.css",
-    "static/js/2.5cee2dd0.chunk.js",
+    "static/js/2.8d4e8c41.chunk.js",
     "static/css/main.fbf041e2.chunk.css",
-    "static/js/main.d910b8aa.chunk.js"
+    "static/js/main.76a23a9b.chunk.js"
   ]
 }
