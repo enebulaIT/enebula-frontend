@@ -12,7 +12,8 @@ import Phoenix_Chain from './auditFiles/Phoenix_Chain.pdf';
 import OneSeed from './auditFiles/OneSeed.pdf';
 import EGGS from './auditFiles/EGGS.pdf';
 import BSL from './auditFiles/BSL.pdf';
-import BMONEY from './auditFiles/BMONEY.pdf';
+import BMONEY from './auditFiles/BMoney.pdf';
+import Tron2Get from './auditFiles/Tron2Get.pdf';
 
 const dataSource = [
   {
@@ -164,6 +165,16 @@ const dataSource = [
     contractType: 'Abstract',
     stages: 'June 25, 2021 (Audited)',
     filePath: BMONEY,
+  },
+  {
+    key: '18',
+    name: 'Tron2Get',
+    coverage: 'Audit',
+    type: 'Token',
+    language: 'Solidity',
+    contractType: 'BEP20',
+    stages: 'July 9, 2021 (Audited)',
+    filePath: Tron2Get,
   },
 ];
 
