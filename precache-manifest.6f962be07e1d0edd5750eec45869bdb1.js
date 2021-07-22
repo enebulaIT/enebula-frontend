@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e79da5924fb330bdd842a73ec090a132",
+    "revision": "a7aecde2684b745a78189735dc7e8f34",
     "url": "/index.html"
   },
   {
-    "revision": "ea1532dfc34639b92cfd",
+    "revision": "7306ff90e8ee9f79fcc7",
     "url": "/static/css/2.d4e7eff5.chunk.css"
   },
   {
-    "revision": "5b7aaac78475f3df64c9",
+    "revision": "47fba614d66e5897e1c3",
     "url": "/static/css/main.fbf041e2.chunk.css"
   },
   {
-    "revision": "ea1532dfc34639b92cfd",
-    "url": "/static/js/2.8d4e8c41.chunk.js"
+    "revision": "7306ff90e8ee9f79fcc7",
+    "url": "/static/js/2.b24d646c.chunk.js"
   },
   {
     "revision": "d8fd627805a9208fba2a6acfc94121dd",
-    "url": "/static/js/2.8d4e8c41.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b24d646c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5b7aaac78475f3df64c9",
-    "url": "/static/js/main.76a23a9b.chunk.js"
+    "revision": "47fba614d66e5897e1c3",
+    "url": "/static/js/main.68ac39a4.chunk.js"
   },
   {
     "revision": "2747b914e9a60db2276f",
@@ -36,64 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/App.a905f8d9.svg"
   },
   {
-    "revision": "48f07ba48f950b9719efe804e42456c8",
-    "url": "/static/media/BMoney.48f07ba4.pdf"
-  },
-  {
-    "revision": "c81d032a46479bce7490dccc1e495c9c",
-    "url": "/static/media/BSL.c81d032a.pdf"
-  },
-  {
-    "revision": "e75866e3d909f26c34635370942884fc",
-    "url": "/static/media/Coinopolis-final.e75866e3.pdf"
-  },
-  {
-    "revision": "27a1c7279b4eeb97287aef356e6b87d3",
-    "url": "/static/media/Coinopolis.27a1c727.pdf"
-  },
-  {
-    "revision": "e4afd90f2b97bbad7d331b3d5fc2a810",
-    "url": "/static/media/EGGS.e4afd90f.pdf"
-  },
-  {
-    "revision": "81c8e4441e0362e358721ba9f048f1ab",
-    "url": "/static/media/Etho-final.81c8e444.pdf"
-  },
-  {
-    "revision": "28c59ef9172b9d5f8b361e3e74b93fd6",
-    "url": "/static/media/Final-Code-Review-Report.28c59ef9.pdf"
-  },
-  {
-    "revision": "7c2d88a527391f5e5190f74de7fe0128",
-    "url": "/static/media/Finify_Protocol.7c2d88a5.pdf"
-  },
-  {
-    "revision": "c4a82ca11652bc08a94c6584e51da482",
-    "url": "/static/media/Fort.c4a82ca1.pdf"
-  },
-  {
     "revision": "02029fe7bfe6b94156bf2d2ae3957b14",
     "url": "/static/media/GAME.02029fe7.svg"
-  },
-  {
-    "revision": "dd4c28245c7dbc554c4c8f4ec15a57f8",
-    "url": "/static/media/HoldCoin.dd4c2824.pdf"
-  },
-  {
-    "revision": "06d4787818f4b6d7b7c25e624c577130",
-    "url": "/static/media/Holders2.06d47878.pdf"
-  },
-  {
-    "revision": "70830cb7cc9e0e2c5702b5fcec95a1f7",
-    "url": "/static/media/OneSeed.70830cb7.pdf"
-  },
-  {
-    "revision": "21d232c5d6fc55550e804908b01e2afc",
-    "url": "/static/media/OnlyUp.21d232c5.pdf"
-  },
-  {
-    "revision": "a3a5ff0274ae960c75e0788433e25a75",
-    "url": "/static/media/Phoenix_Chain.a3a5ff02.pdf"
   },
   {
     "revision": "3a1af49f4b7647091fdf0d59b4032dbb",
@@ -118,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cb71146ced66e23b7f806c9f7d16a693",
     "url": "/static/media/Trident-gym.cb71146c.svg"
-  },
-  {
-    "revision": "e79bed8b030999e23ceefe5ad8ea9f80",
-    "url": "/static/media/Tron2Get.e79bed8b.pdf"
   },
   {
     "revision": "ba77afed9eceddc966117b02f26990a4",
