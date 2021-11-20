@@ -56,13 +56,13 @@ const Contact = () => {
 			         <div className="col-lg-4 js-match-height" style={{height: "866px"}}>
 			            <aside className="aside__left contact__aside">
 			               <div className="contact__aside--content"> 
-			                  <div className="contact__aside--widget">
+			                  {/* <div className="contact__aside--widget">
 								<h5 className="contact__aside--widget-title">
 									 <i className="fa fa-phone"></i> 
 									 Phone number
 								</h5>
 								<a href = "tel:+918320295470"><p>+91 83202 95470</p></a>
-			                  </div>
+			                  </div> */}
 			                  <div className="contact__aside--widget">
 								<h5 className="contact__aside--widget-title"><i className="fa fa-envelope"></i> Email address</h5>
 								<a href = "mailto:contact@enebula.in"><p>contact@enebula.in</p></a>
